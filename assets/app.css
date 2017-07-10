@@ -103,8 +103,13 @@ header:hover + #info {
   white-space: nowrap;
   padding: 10px;
   transition: transform .3s ease-out;
+  transform: translateY(100%);
+}
+.render #countries {
+  transform: translateY(0);
 }
 .interactive #countries {
+  transition-delay: 0s;
   transform: translateY(60%);
 }
 #countries button {

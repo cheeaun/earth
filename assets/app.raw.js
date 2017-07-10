@@ -44,7 +44,7 @@
   map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
   function renderNumber(el, number) {
-    const frames = 30;
+    const frames = 60;
     const inc = Math.ceil(number / frames);
     let num = 0;
     function render() {
@@ -63,7 +63,8 @@
     .then((data) => {
       const _countries = {};
       const _places = {};
-      renderNumber($infoCheckins, data.features.length);
+
+      const checkinsCount = data.features.length;
 
       data.features = data.features.filter((f) => {
         const { id, country } = f.properties;
@@ -87,7 +88,7 @@
         return isUnique;
       });
 
-      renderNumber($infoPlaces, Object.keys(_places).length);
+      const placesCount = Object.keys(_places).length;
 
       const countries = Object.keys(_countries).map((country) => {
         const c = _countries[country];
@@ -101,7 +102,6 @@
       });
 
       const countriesCount = countries.length;
-      renderNumber($infoCountries, countriesCount);
 
       countries.sort((a, b) => b.checkins_count - a.checkins_count);
       countries.forEach((country, i) => {
@@ -185,6 +185,15 @@
           'circle-stroke-color': '#14B7F4',
           'circle-stroke-opacity': .1,
         },
+      });
+
+      map.once('data', () => {
+        requestAnimationFrame(() => {
+          renderNumber($infoCheckins, checkinsCount);
+          renderNumber($infoPlaces, placesCount);
+          renderNumber($infoCountries, countriesCount);
+          bodyClass.add('render');
+        });
       });
 
       map.on('mouseenter', 'cluster', () => {
