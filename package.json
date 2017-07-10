@@ -16,11 +16,11 @@
   "scripts": {
     "start": "yarn js | serve",
     "js": "babel assets/app.raw.js --watch --presets=es2015,babili --out-file assets/app.js --source-maps",
-    "mapsicon": "napa Sn3b/mapsicon",
+    "mapsicon": "if [ ! -d \"node_modules/mapsicon\" ]; then napa Sn3b/mapsicon; fi",
     "checkins": "yarn foursquare && yarn geojson",
     "foursquare": "node scripts/get-checkins.js",
     "geojson": "node scripts/geojson-checkins.js",
-    "countries": "yarn countries-svg && yarn optimize-svg && yarn simplify-svg && yarn optimize-svg",
+    "countries": "yarn mapsicon && yarn countries-svg && yarn optimize-svg && yarn simplify-svg && yarn optimize-svg",
     "countries-svg": "node scripts/generate-countries-svg.js",
     "simplify-svg": "node scripts/simplify-svg.js",
     "optimize-svg": "svgo -f data/countries/ --multipass -p 0 --config .svgo.yml"
