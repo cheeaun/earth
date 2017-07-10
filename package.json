@@ -1,0 +1,28 @@
+{
+  "name": "cheeaun-earth",
+  "version": "0.0.1",
+  "author": "Lim Chee Aun",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-babili": "^0.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "dotenv": "^4.0.0",
+    "got": "^7.0.0",
+    "napa": "^3.0.0",
+    "paper": "^0.11.4",
+    "serve": "^5.2.4"
+  },
+  "scripts": {
+    "start": "yarn js | serve",
+    "js": "babel assets/app.raw.js --watch --presets=es2015,babili --out-file assets/app.js --source-maps",
+    "mapsicon": "napa Sn3b/mapsicon",
+    "checkins": "yarn foursquare && yarn geojson",
+    "foursquare": "node scripts/get-checkins.js",
+    "geojson": "node scripts/geojson-checkins.js",
+    "countries": "yarn countries-svg && yarn optimize-svg && yarn simplify-svg && yarn optimize-svg",
+    "countries-svg": "node scripts/generate-countries-svg.js",
+    "simplify-svg": "node scripts/simplify-svg.js",
+    "optimize-svg": "svgo -f data/countries/ --multipass -p 0 --config .svgo.yml"
+  }
+}

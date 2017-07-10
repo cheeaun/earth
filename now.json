@@ -1,0 +1,12 @@
+{
+  "name": "cheeaun-earth",
+  "alias": [
+    "cheeaun.earth"
+  ],
+  "files": [
+    "index.html",
+    "assets",
+    "data/checkins.min.geojson",
+    "data/countries"
+  ]
+}

@@ -1,0 +1,5 @@
+data/checkins.json
+node_modules
+.DS_Store
+.yarnclean
+.env
