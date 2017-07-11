@@ -6,7 +6,7 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-babili": "^0.1.4",
-    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
     "dotenv": "^4.0.0",
     "got": "^7.0.0",
     "napa": "^3.0.0",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "yarn js | serve",
-    "js": "babel assets/app.raw.js --watch --presets=es2015,babili --out-file assets/app.js --source-maps",
+    "js": "babel assets/app.raw.js --watch --presets=env,babili --out-file assets/app.js --source-maps",
     "mapsicon": "if [ ! -d \"node_modules/mapsicon\" ]; then napa Sn3b/mapsicon; fi",
     "checkins": "yarn foursquare && yarn geojson",
     "foursquare": "node scripts/get-checkins.js",
