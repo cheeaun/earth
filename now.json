@@ -1,8 +1,6 @@
 {
   "name": "cheeaun-earth",
-  "alias": [
-    "cheeaun.earth"
-  ],
+  "alias": "cheeaun.earth",
   "files": [
     "index.html",
     "favicon.ico",
