@@ -57,170 +57,172 @@
     requestAnimationFrame(render);
   };
 
-  map.on('load', () => {
-    fetch('data/checkins.min.geojson')
-    .then((data) => data.json())
-    .then((data) => {
-      const _countries = {};
-      const _places = {};
+  Promise.all([
+    new Promise((resolve, reject) => {
+      map.on('load', resolve);
+      map.on('error', reject);
+    }),
+    fetch('data/checkins.min.geojson').then((data) => data.json()),
+  ]).then(([_, data]) => {
+    const _countries = {};
+    const _places = {};
 
-      const checkinsCount = data.features.length;
+    const checkinsCount = data.features.length;
 
-      data.features = data.features.filter((f) => {
-        const { id, country } = f.properties;
-        const isUnique = !_places[id];
-        if (isUnique) {
-          if (!_countries[country]) {
-            const cc = f.properties.cc.toLowerCase();
-            _countries[country] = {
-              cc: cc,
-              bounds: new mapboxgl.LngLatBounds(),
-              places_count: 0,
-              checkins_count: 0,
-            };
-          }
-          const coordinates = f.geometry.coordinates;
-          _countries[country].bounds.extend([coordinates[0], coordinates[1]]);
-          _countries[country].places_count++;
-          _places[id] = true;
+    data.features = data.features.filter((f) => {
+      const { id, country } = f.properties;
+      const isUnique = !_places[id];
+      if (isUnique) {
+        if (!_countries[country]) {
+          const cc = f.properties.cc.toLowerCase();
+          _countries[country] = {
+            cc: cc,
+            bounds: new mapboxgl.LngLatBounds(),
+            places_count: 0,
+            checkins_count: 0,
+          };
         }
-        _countries[country].checkins_count++;
-        return isUnique;
-      });
-
-      const placesCount = Object.keys(_places).length;
-
-      const countries = Object.keys(_countries).map((country) => {
-        const c = _countries[country];
-        return {
-          name: country,
-          cc: c.cc,
-          bounds: c.bounds,
-          places_count: c.places_count,
-          checkins_count: c.checkins_count,
-        };
-      });
-
-      const countriesCount = countries.length;
-
-      countries.sort((a, b) => b.checkins_count - a.checkins_count);
-      countries.forEach((country, i) => {
-        const { cc, name, bounds, checkins_count, places_count } = country;
-        const $button = document.createElement('button');
-        $button.type = 'button';
-        $button.addEventListener('click', (e) => {
-          map.fitBounds(bounds, { padding: 150 });
-        }, false);
-        $button.innerHTML = `
-          <img src="data/countries/${cc}.svg" width="50" height="50" alt=""><br>
-          <b>${name}</b>
-          <br>
-          ${numberWithCommas(checkins_count)} check-in${checkins_count > 1 ? 's' : ''}
-          <br>
-          ${numberWithCommas(places_count)} place${places_count > 1 ? 's' : ''}
-        `;
-        $countries.appendChild($button);
-      });
-
-      map.addSource('checkins', {
-        type: 'geojson',
-        data: data,
-        cluster: true,
-        clusterMaxZoom: 10,
-        clusterRadius: 10,
-      });
-
-      map.addLayer({
-        id: 'cluster',
-        type: 'circle',
-        source: 'checkins',
-        filter: ['has', 'point_count'],
-        paint: {
-          'circle-radius': {
-            property: 'point_count',
-            stops: [
-              [{zoom: 0, value: 3}, 7],
-              [{zoom: 0, value: 10}, 10],
-              [{zoom: 0, value: 100}, 13],
-              [{zoom: 0, value: 200}, 16],
-            ],
-          },
-          'circle-color': '#14B7F4',
-          'circle-opacity': .9,
-          'circle-stroke-width': {
-            property: 'point_count',
-            stops: [
-              [3, 3],
-              [50, 6],
-            ],
-          },
-          'circle-stroke-color': '#14B7F4',
-          'circle-stroke-opacity': .3,
-        }
-      });
-
-      map.addLayer({
-        id: 'checkins-count',
-        type: 'symbol',
-        source: 'checkins',
-        filter: ['has', 'point_count'],
-        maxzoom: 11,
-        layout: {
-          'text-field': '{point_count_abbreviated}',
-          'text-size': 10,
-        },
-      });
-
-      map.addLayer({
-        id: 'checkins',
-        type: 'circle',
-        source: 'checkins',
-        minzoom: 8,
-        filter: ['!has', 'point_count'],
-        paint: {
-          'circle-radius': 3,
-          'circle-color': '#14B7F4',
-          'circle-opacity': .9,
-          'circle-stroke-width': 3,
-          'circle-stroke-color': '#14B7F4',
-          'circle-stroke-opacity': .1,
-        },
-      });
-
-      map.once('data', () => {
-        requestAnimationFrame(() => {
-          renderNumber($infoCheckins, checkinsCount);
-          renderNumber($infoPlaces, placesCount);
-          renderNumber($infoCountries, countriesCount);
-          bodyClass.add('render');
-        });
-      });
-
-      map.on('mouseenter', 'cluster', () => {
-        map.getCanvas().style.cursor = 'pointer';
-      });
-
-      map.on('click', 'cluster', (e) => {
-        map.flyTo({
-          center: e.lngLat,
-          zoom: map.getZoom() + 2,
-        });
-      });
-
-      map.on('mouseleave', 'cluster', () => {
-        map.getCanvas().style.cursor = '';
-      });
-
-      const filterByDate = (startDate, endDate) => {
-        map.setFilter('checkins', [
-          'all',
-          ['>=', 'date', startDate],
-          ['<=', 'date', endDate],
-          map.getFilter('checkins'),
-        ]);
-      };
-      // TODO: filter by date
-      // filterByDate(20160101, 20161212);
+        const coordinates = f.geometry.coordinates;
+        _countries[country].bounds.extend([coordinates[0], coordinates[1]]);
+        _countries[country].places_count++;
+        _places[id] = true;
+      }
+      _countries[country].checkins_count++;
+      return isUnique;
     });
+
+    const placesCount = Object.keys(_places).length;
+
+    const countries = Object.keys(_countries).map((country) => {
+      const c = _countries[country];
+      return {
+        name: country,
+        cc: c.cc,
+        bounds: c.bounds,
+        places_count: c.places_count,
+        checkins_count: c.checkins_count,
+      };
+    });
+
+    const countriesCount = countries.length;
+
+    countries.sort((a, b) => b.checkins_count - a.checkins_count);
+    countries.forEach((country, i) => {
+      const { cc, name, bounds, checkins_count, places_count } = country;
+      const $button = document.createElement('button');
+      $button.type = 'button';
+      $button.addEventListener('click', (e) => {
+        map.fitBounds(bounds, { padding: 150 });
+      }, false);
+      $button.innerHTML = `
+        <img src="data/countries/${cc}.svg" width="50" height="50" alt=""><br>
+        <b>${name}</b>
+        <br>
+        ${numberWithCommas(checkins_count)} check-in${checkins_count > 1 ? 's' : ''}
+        <br>
+        ${numberWithCommas(places_count)} place${places_count > 1 ? 's' : ''}
+      `;
+      $countries.appendChild($button);
+    });
+
+    map.addSource('checkins', {
+      type: 'geojson',
+      data: data,
+      cluster: true,
+      clusterMaxZoom: 10,
+      clusterRadius: 10,
+    });
+
+    map.addLayer({
+      id: 'cluster',
+      type: 'circle',
+      source: 'checkins',
+      filter: ['has', 'point_count'],
+      paint: {
+        'circle-radius': {
+          property: 'point_count',
+          stops: [
+            [{zoom: 0, value: 3}, 7],
+            [{zoom: 0, value: 10}, 10],
+            [{zoom: 0, value: 100}, 13],
+            [{zoom: 0, value: 200}, 16],
+          ],
+        },
+        'circle-color': '#14B7F4',
+        'circle-opacity': .9,
+        'circle-stroke-width': {
+          property: 'point_count',
+          stops: [
+            [3, 3],
+            [50, 6],
+          ],
+        },
+        'circle-stroke-color': '#14B7F4',
+        'circle-stroke-opacity': .3,
+      }
+    });
+
+    map.addLayer({
+      id: 'checkins-count',
+      type: 'symbol',
+      source: 'checkins',
+      filter: ['has', 'point_count'],
+      maxzoom: 11,
+      layout: {
+        'text-field': '{point_count_abbreviated}',
+        'text-size': 10,
+      },
+    });
+
+    map.addLayer({
+      id: 'checkins',
+      type: 'circle',
+      source: 'checkins',
+      minzoom: 8,
+      filter: ['!has', 'point_count'],
+      paint: {
+        'circle-radius': 3,
+        'circle-color': '#14B7F4',
+        'circle-opacity': .9,
+        'circle-stroke-width': 3,
+        'circle-stroke-color': '#14B7F4',
+        'circle-stroke-opacity': .1,
+      },
+    });
+
+    map.once('data', () => {
+      requestAnimationFrame(() => {
+        renderNumber($infoCheckins, checkinsCount);
+        renderNumber($infoPlaces, placesCount);
+        renderNumber($infoCountries, countriesCount);
+        bodyClass.add('render');
+      });
+    });
+
+    map.on('mouseenter', 'cluster', () => {
+      map.getCanvas().style.cursor = 'pointer';
+    });
+
+    map.on('click', 'cluster', (e) => {
+      map.flyTo({
+        center: e.lngLat,
+        zoom: map.getZoom() + 2,
+      });
+    });
+
+    map.on('mouseleave', 'cluster', () => {
+      map.getCanvas().style.cursor = '';
+    });
+
+    const filterByDate = (startDate, endDate) => {
+      map.setFilter('checkins', [
+        'all',
+        ['>=', 'date', startDate],
+        ['<=', 'date', endDate],
+        map.getFilter('checkins'),
+      ]);
+    };
+    // TODO: filter by date
+    // filterByDate(20160101, 20161212);
   });
 })(document, mapboxgl);
