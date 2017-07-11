@@ -5,6 +5,7 @@
   ],
   "files": [
     "index.html",
+    "favicon.ico",
     "assets",
     "data/checkins.min.geojson",
     "data/countries"
