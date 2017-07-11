@@ -31,7 +31,9 @@ ACCESS_TOKEN=XXX
 ### Wonderful `yarn` scripts
 
 - `yarn checkins` - Fetch all checks-ins from Foursquare. Raw `checkins.json` is not part of repo because of privacy. `checkins[.min].geojson` files have *shortened* coordinates for privacy.
-- `yarn countries` - Download copy of country maps from [Sn3b/mapsicon](https://github.com/Sn3b/mapsicon) (Uses [napa](https://github.com/shama/napa) because it doesn't have a `package.json`). Then generate all optimized SVG countries.
+- `yarn countries`
+  - Remember to [install SVGO first](https://github.com/svg/svgo) (globally) before running this.
+  - Download a copy of country maps from [Sn3b/mapsicon](https://github.com/Sn3b/mapsicon) (Uses [napa](https://github.com/shama/napa) because it doesn't have a `package.json`). Then generate all optimized SVG countries.
 - `yarn start` - Watch and transpile `assets/app.raw.js`, and start the server.
 
 Future
