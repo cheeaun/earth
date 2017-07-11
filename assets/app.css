@@ -86,6 +86,11 @@ header:hover + #info {
   white-space: nowrap;
   display: inline-block;
   vertical-align: middle;
+  transition: opacity 2s ease-out;
+  opacity: .3;
+}
+.render #info span {
+  opacity: 1;
 }
 .mapboxgl-ctrl-logo {
   opacity: .6;
