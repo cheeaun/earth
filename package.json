@@ -4,18 +4,32 @@
   "author": "Lim Chee Aun",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-babili": "^0.1.4",
     "babel-preset-env": "^1.6.0",
     "dotenv": "^4.0.0",
     "got": "^7.0.0",
     "napa": "^3.0.0",
     "paper": "^0.11.4",
-    "serve": "^5.2.4"
+    "rollup": "^0.45.1",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1",
+    "serve": "^5.2.4",
+    "unfetch": "^3.0.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "modules": false
+        }
+      ]
+    ]
   },
   "scripts": {
-    "start": "yarn js | serve",
-    "js": "babel assets/app.raw.js --watch --presets=env,babili --out-file assets/app.js --source-maps",
+    "start": "yarn dev | serve",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
     "mapsicon": "if [ ! -d \"node_modules/mapsicon\" ]; then napa Sn3b/mapsicon; fi",
     "checkins": "yarn foursquare && yarn geojson",
     "foursquare": "node scripts/get-checkins.js",

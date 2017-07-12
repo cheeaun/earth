@@ -4,6 +4,9 @@ html, body {
 body, button, input, textarea, select {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
+svg {
+  fill: currentColor;
+}
 #map {
   position: absolute;
   top: 0;
@@ -16,6 +19,12 @@ body, button, input, textarea, select {
 }
 .mapboxgl-ctrl-compass {
   display: none !important;
+}
+.mapboxgl-ctrl > button:active {
+  background-color: #aaa;
+}
+.mapboxgl-ctrl > button.active {
+  color: #14B7F4;
 }
 header {
   cursor: default;
