@@ -1,0 +1,160 @@
+html, body {
+  background-color: #000;
+}
+body, button, input, textarea, select {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+svg {
+  fill: currentColor;
+}
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mapboxgl-ctrl-attrib.mapboxgl-compact {
+  margin-top: 10px;
+}
+.mapboxgl-ctrl-compass {
+  display: none !important;
+}
+.mapboxgl-ctrl > button:active {
+  background-color: #aaa;
+}
+.mapboxgl-ctrl > button.active {
+  color: #14B7F4;
+}
+header {
+  cursor: default;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  text-shadow: 0 2px 2px #000;
+  z-index: 1;
+  color: #fff;
+}
+header h1 {
+  font-size: inherit;
+  display: inline-block;
+  margin: 00;
+  padding: 0;
+  font-weight: normal;
+}
+header a {
+  padding: 0 0 0 .5em;
+}
+header svg {
+  vertical-align: middle;
+  fill: currentcolor;
+}
+header a,
+#info a {
+  color: #fff;
+  text-decoration: none;
+  opacity: .6;
+  transition: opacity .3s;
+}
+header a:hover,
+#info a:hover {
+  opacity: 1;
+}
+#info {
+  z-index: 1;
+  cursor: default;
+  user-select: none;
+  position: absolute;
+  top: 2em;
+  left: 10px;
+  font-size: 15px;
+  text-shadow: 0 2px 2px #000;
+  pointer-events: none;
+  color: rgba(255,255,255,.6);
+  background-color: transparent;
+  transition-property: opacity, transform;
+  transition-duration: .4s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin-right: 100px;
+  opacity: 1;
+}
+.interactive #info {
+  opacity: 0;
+  transform: translate(-20px, -20px);
+}
+header:hover + #info {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+#info span {
+  font-size: 40px;
+  line-height: 40px;
+  color: #fff;
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+  transition: opacity 2s ease-out;
+  opacity: .3;
+}
+.render #info span {
+  opacity: 1;
+}
+.mapboxgl-ctrl-logo {
+  opacity: .6;
+}
+.mapboxgl-ctrl-logo:hover {
+  opacity: 1;
+}
+#countries {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  overflow-scrolling: touch;
+  white-space: nowrap;
+  padding: 10px;
+  transition: transform .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: translateY(100%);
+}
+.render #countries {
+  transform: translateY(0);
+}
+.interactive #countries {
+  transition-delay: 0s;
+  transform: translateY(60%);
+}
+#countries button {
+  border: 0;
+  display: inline-block;
+  padding: 10px;
+  color: #000;
+  background-color: rgba(255,255,255,.5);
+  backdrop-filter: blur(10px);
+  border-radius: 3px;
+  margin-right: 10px;
+  text-align: center;
+  cursor: pointer;
+  min-width: 100px;
+  text-shadow: 0 1px rgba(255,255,255,.3);
+  transition-property: transform, background-color;
+  transition-duration: .4s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  font-size: 80%;
+}
+#countries button
+#countries button img {
+  opacity: .75;
+}
+#countries button:hover {
+  background-color: rgba(255,255,255,.85);
+  transform: translateY(-5px);
+}
+.interactive #countries * {
+  pointer-events: none;
+}
+.interactive #countries button {
+  transform: rotate(-5deg);
+  filter: opacity(50%);
+}

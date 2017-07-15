@@ -1,3 +1,4 @@
+import './app.raw.css';
 import fetch from 'unfetch';
 
 const color = '#14B7F4';
