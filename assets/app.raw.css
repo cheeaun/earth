@@ -149,7 +149,7 @@ header:hover + #info {
 }
 #countries button:hover {
   background-color: rgba(255,255,255,.85);
-  transform: translateY(-5px);
+  transform: translateY(-5px) scale(1.03);
 }
 .interactive #countries * {
   pointer-events: none;
