@@ -36,6 +36,11 @@ ACCESS_TOKEN=XXX
   - Download a copy of country maps from [Sn3b/mapsicon](https://github.com/Sn3b/mapsicon) (Uses [napa](https://github.com/shama/napa) because it doesn't have a `package.json`). Then generate all optimized SVG countries.
 - `yarn start` - Watch and transpile `assets/app.raw.js`, and start the server.
 
+### Deployment to [Now](https://zeit.co/now)
+
+- `now --static` for deploying as static site
+- `now alias` for aliasing to self-registered domain
+
 Future
 ---
 
