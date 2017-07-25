@@ -18,7 +18,6 @@ const map = new mapboxgl.Map({
   boxZoom: false,
   zoom: 0.1,
 });
-map.touchZoomRotate.disableRotation();
 
 const $info = document.getElementById('info');
 const $infoCountries = document.getElementById('info-countries');
@@ -312,19 +311,6 @@ Promise.all([
       'line-color': "#fff",
       'line-opacity': .3,
     },
-  });
-
-  let buildingsZone = false;
-  map.on('zoomend', () => {
-    const z = map.getZoom();
-    if (z >= 15 && !buildingsZone) {
-      buildingsZone = true;
-      map.touchZoomRotate.enableRotation();
-    } else if (z < 15 && buildingsZone) {
-      buildingsZone = false;
-      map.touchZoomRotate.disableRotation();
-      map.rotateTo(0);
-    }
   });
 
   map.addLayer({
