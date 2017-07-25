@@ -17,9 +17,6 @@ svg {
 .mapboxgl-ctrl-attrib.mapboxgl-compact {
   margin-top: 10px;
 }
-.mapboxgl-ctrl-compass {
-  display: none !important;
-}
 .mapboxgl-ctrl > button:active {
   background-color: #aaa;
 }
@@ -105,6 +102,25 @@ header:hover + #info {
 }
 .mapboxgl-ctrl-logo:hover {
   opacity: 1;
+}
+.pitch-ctrl {
+  width: 30px;
+  text-align: center;
+  background-color: rgba(255,255,255,.5);
+  backdrop-filter: blur(10px);
+  border-radius: 4px;
+  padding: 5px 0;
+}
+.pitch-ctrl svg {
+  width: 16px;
+  fill: #fff;
+}
+.pitch-slider {
+  padding: 0;
+  margin: 0;
+  width: 30px;
+  height: 60px;
+  appearance: slider-vertical;
 }
 #countries {
   position: absolute;

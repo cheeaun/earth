@@ -12,11 +12,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiY2hlZWF1biIsImEiOiJjaXhmb3o3bTEwMDAzMnRudTJuN
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/cheeaun/cixol8ezg002g2rqs007w3jmt',
-  maxZoom: 14,
+  maxZoom: 15.5,
   logoPosition: 'top-right',
   attributionControl: false,
-  pitchWithRotate: false,
-  dragRotate: false,
   boxZoom: false,
   zoom: 0.1,
 });
@@ -79,6 +77,36 @@ class LayersControl {
 map.addControl(new LayersControl(), 'top-right');
 
 map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+
+let slider;
+class PitchControl {
+  onAdd() {
+    const container = document.createElement('div');
+    container.className = 'mapboxgl-ctrl pitch-ctrl';
+
+    container.innerHTML = `<svg viewBox="0 0 24 24">
+      <title>Pitch</title>
+      <path d="M14 6l-3.8 5 3 3.8-1.7 1.2L7 10l-6 8h22L14 6z"/>
+    </svg>`;
+
+    slider = document.createElement('input');
+    slider.type = 'range';
+    slider.step = 5;
+    slider.min = slider.value = 0;
+    slider.max = 60;
+    slider.className = 'pitch-slider';
+    slider.addEventListener('change', (e) => {
+      map.easeTo({ pitch: e.target.value });
+    }, false);
+
+    container.appendChild(slider);
+    return container;
+  }
+}
+map.addControl(new PitchControl(), 'top-right');
+map.on('pitchend', () => {
+  slider.value = map.getPitch();
+});
 
 function renderNumber(el, number) {
   const frames = 60;
@@ -253,6 +281,7 @@ Promise.all([
   });
 
   map.on('click', 'cluster', (e) => {
+    e.originalEvent.stopPropagation();
     map.flyTo({
       center: e.lngLat,
       zoom: map.getZoom() + 2,
@@ -285,14 +314,56 @@ Promise.all([
     },
   });
 
-  const filterByDate = (startDate, endDate) => {
-    map.setFilter('checkins', [
-      'all',
-      ['>=', 'date', startDate],
-      ['<=', 'date', endDate],
-      map.getFilter('checkins'),
-    ]);
-  };
+  let buildingsZone = false;
+  map.on('zoomend', () => {
+    const z = map.getZoom();
+    if (z >= 15 && !buildingsZone) {
+      buildingsZone = true;
+      map.touchZoomRotate.enableRotation();
+    } else if (z < 15 && buildingsZone) {
+      buildingsZone = false;
+      map.touchZoomRotate.disableRotation();
+      map.rotateTo(0);
+    }
+  });
+
+  map.addLayer({
+    id: '3d-buildings',
+    source: 'composite',
+    'source-layer': 'building',
+    filter: ['==', 'extrude', 'true'],
+    type: 'fill-extrusion',
+    minzoom: 15,
+    paint: {
+      'fill-extrusion-color': '#999',
+      'fill-extrusion-height': {
+        type: 'identity',
+        property: 'height',
+      },
+      'fill-extrusion-base': {
+        type: 'identity',
+        property: 'min_height',
+      },
+      'fill-extrusion-opacity': .6,
+    },
+  });
+
   // TODO: filter by date
+  // const filterByDate = (startDate, endDate) => {
+  //   map.setFilter('checkins', [
+  //     'all',
+  //     ['>=', 'date', startDate],
+  //     ['<=', 'date', endDate],
+  //     map.getFilter('checkins'),
+  //   ]);
+  // };
   // filterByDate(20160101, 20161212);
+
+  const err = (e) => {
+    const reload = confirm('Oops, the map is acting weird now. Reload this page? 😅');
+    if (reload) location.reload();
+    console.error(e);
+  };
+  map.on('error', err);
+  window.onerror = err;
 });
