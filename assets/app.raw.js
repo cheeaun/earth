@@ -182,7 +182,7 @@ Promise.all([
 
   const countriesCount = countries.length;
 
-  countries.sort((a, b) => b.checkins_count - a.checkins_count);
+  countries.sort((a, b) => b.places_count - a.places_count);
   countries.forEach((country, i) => {
     const { cc, name, bounds, checkins_count, places_count } = country;
     const $button = document.createElement('button');
