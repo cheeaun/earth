@@ -35,6 +35,18 @@
       "external-helpers"
     ]
   },
+  "now": {
+    "name": "cheeaun-earth",
+    "alias": "cheeaun.earth",
+    "type": "static",
+    "files": [
+      "index.html",
+      "favicon.ico",
+      "assets",
+      "data/checkins.min.geojson",
+      "data/countries"
+    ]
+  },
   "scripts": {
     "start": "yarn dev | serve",
     "build": "rollup -c",
