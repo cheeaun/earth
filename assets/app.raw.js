@@ -201,6 +201,13 @@ Promise.all([
     $countries.appendChild($button);
   });
 
+  const layers = map.getStyle().layers.reverse();
+  const labelLayerIdx = layers.findIndex(function (layer) {
+    return layer.type !== 'symbol';
+  });
+  const labelLayerId = labelLayerIdx !== -1 ? layers[labelLayerIdx].id : undefined;
+
+
   map.addSource('checkins', {
     type: 'geojson',
     data: data,
@@ -264,7 +271,7 @@ Promise.all([
       'circle-stroke-color': color,
       'circle-stroke-opacity': .1,
     },
-  });
+  }, labelLayerId);
 
   map.once('data', () => {
     requestAnimationFrame(() => {
@@ -311,7 +318,7 @@ Promise.all([
       'line-color': "#fff",
       'line-opacity': .3,
     },
-  });
+  }, labelLayerId);
 
   map.addLayer({
     id: '3d-buildings',
@@ -332,7 +339,7 @@ Promise.all([
       },
       'fill-extrusion-opacity': .6,
     },
-  });
+  }, labelLayerId);
 
   // TODO: filter by date
   // const filterByDate = (startDate, endDate) => {
