@@ -7,8 +7,7 @@ import babel from 'rollup-plugin-babel';
 import uglify from 'rollup-plugin-uglify';
 
 export default {
-  entry: 'assets/app.raw.js',
-  format: 'iife',
+  input: 'assets/app.raw.js',
   plugins: [
     postcss({
       sourceMap: true,
@@ -24,6 +23,9 @@ export default {
     }),
     uglify(),
   ],
-  dest: 'assets/app.js',
-  sourceMap: true,
+  output: {
+    file: 'assets/app.js',
+    format: 'iife',
+    sourcemap: true,
+  },
 };
