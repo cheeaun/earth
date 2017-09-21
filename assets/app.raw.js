@@ -207,7 +207,6 @@ Promise.all([
   });
   const labelLayerId = labelLayerIdx !== -1 ? layers[labelLayerIdx].id : undefined;
 
-
   map.addSource('checkins', {
     type: 'geojson',
     data: data,
