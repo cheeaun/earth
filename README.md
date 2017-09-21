@@ -57,6 +57,7 @@ Related
 - [4sqmap](http://www.4sqmap.com/)
 - [Where Do You Go](http://www.wheredoyougo.net/)
 - [Your diary (on Foursquare)](http://diary.look4square.com/)
+- [Foursquare's old Time Machine](https://thenextweb.com/insider/2013/06/13/great-scott-foursquares-time-machine-visualizes-your-past-check-ins-and-predicts-where-youll-go-next/) ([video](https://vimeo.com/148146749))
 
 License
 ---
