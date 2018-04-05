@@ -48,14 +48,14 @@
     ]
   },
   "scripts": {
-    "start": "yarn dev | serve",
+    "start": "npm run dev | serve",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "mapsicon": "if [ ! -d \"node_modules/mapsicon\" ]; then napa Sn3b/mapsicon; fi",
-    "checkins": "yarn foursquare && yarn geojson",
+    "checkins": "npm run foursquare && npm run geojson",
     "foursquare": "node scripts/get-checkins.js",
     "geojson": "node scripts/geojson-checkins.js",
-    "countries": "yarn mapsicon && yarn countries-svg && yarn optimize-svg && yarn simplify-svg && yarn optimize-svg",
+    "countries": "npm run mapsicon && npm run countries-svg && npm run optimize-svg && npm run simplify-svg && npm run optimize-svg",
     "countries-svg": "node scripts/generate-countries-svg.js",
     "simplify-svg": "node scripts/simplify-svg.js",
     "optimize-svg": "svgo -f data/countries/ --multipass -p 0 --config .svgo.yml"
