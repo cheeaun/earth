@@ -42,7 +42,12 @@
     "files": [
       "index.html",
       "favicon.ico",
-      "assets",
+      "assets/app.raw.css",
+      "assets/app.css",
+      "assets/app.css.map",
+      "assets/app.raw.js",
+      "assets/app.js",
+      "assets/app.js.map",
       "data/checkins.min.geojson",
       "data/countries"
     ]
