@@ -41,6 +41,22 @@ ACCESS_TOKEN=XXX
 - `now --static` for deploying as static site
 - `now alias` for aliasing to self-registered domain
 
+Notes
+---
+
+### Browserslist
+
+Based on [Can I Use: WebGL](http://caniuse.com/#feat=webgl).
+
+- `defaults`
+- `not ie <= 10`
+- `not Android <= 5`
+- `not BlackBerry <= 7`
+- `not ie_mob <= 10`
+- `not op_mini all`
+
+Go to [Browserslist](http://browserl.ist/?q=defaults%2C+not+ie+%3C%3D+10%2C+not+Android+%3C%3D+5%2C+not+BlackBerry+%3C%3D+7%2C+not+ie_mob+%3C%3D+10%2C+not+op_mini+all).
+
 Future
 ---
 

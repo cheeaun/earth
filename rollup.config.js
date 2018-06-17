@@ -14,7 +14,16 @@ export default {
       sourceMap: true,
       extract: 'assets/app.css',
       plugins: [
-        autoprefixer(),
+        autoprefixer({
+          browsers: [
+            'defaults',
+            'not ie <= 10',
+            'not Android <= 5',
+            'not BlackBerry <= 7',
+            'not ie_mob <= 10',
+            'not op_mini all'
+          ],
+        }),
         clean(),
       ],
     }),
