@@ -2,6 +2,7 @@ import postcss from 'rollup-plugin-postcss';
 import autoprefixer from 'autoprefixer';
 import clean from 'postcss-clean';
 
+import commonjs from 'rollup-plugin-commonjs';
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
 import { uglify } from 'rollup-plugin-uglify';
@@ -18,6 +19,7 @@ export default {
       ],
     }),
     resolve(),
+    commonjs(),
     babel({
       exclude: 'node_modules/**'
     }),
