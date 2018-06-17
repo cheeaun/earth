@@ -221,24 +221,20 @@ Promise.all([
     source: 'checkins',
     filter: ['has', 'point_count'],
     paint: {
-      'circle-radius': {
-        property: 'point_count',
-        stops: [
-          [{zoom: 0, value: 3}, 7],
-          [{zoom: 0, value: 10}, 10],
-          [{zoom: 0, value: 100}, 13],
-          [{zoom: 0, value: 200}, 16],
-        ],
-      },
+      'circle-radius': [
+        'interpolate', ['linear'], ['get', 'point_count'],
+        3, 7,
+        10, 10,
+        100, 13,
+        200, 16
+      ],
       'circle-color': color,
       'circle-opacity': .9,
-      'circle-stroke-width': {
-        property: 'point_count',
-        stops: [
-          [3, 3],
-          [50, 6],
-        ],
-      },
+      'circle-stroke-width': [
+        'interpolate', ['linear'], ['get', 'point_count'],
+        3, 3,
+        50, 6
+      ],
       'circle-stroke-color': color,
       'circle-stroke-opacity': .3,
     }
