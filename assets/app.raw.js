@@ -138,7 +138,7 @@ Promise.all([
   data.features = data.features.filter((f, i) => {
     const { id, country } = f.properties;
     const isUnique = !_places[id];
-    const [lat, lng] = f.geometry.coordinates;
+    const [lng, lat] = f.geometry.coordinates;
     if (isUnique) {
       if (!_countries[country]) {
         const cc = f.properties.cc.toLowerCase();
@@ -149,7 +149,7 @@ Promise.all([
           checkins_count: 0,
         };
       }
-      _countries[country].bounds.extend([lat, lng]);
+      _countries[country].bounds.extend([lng, lat]);
       _countries[country].places_count++;
       _places[id] = true;
     }
@@ -157,11 +157,11 @@ Promise.all([
 
     const nextFeature = data.features[i+1];
     if (nextFeature && f.properties.date === nextFeature.properties.date){
-      let [ nextLat, nextLng ] = nextFeature.geometry.coordinates;
+      let [ nextLng, nextLat ] = nextFeature.geometry.coordinates;
       // Magic below from https://github.com/mapbox/mapbox-gl-js/issues/3250#issuecomment-294887678
       // This make sure the lines can cross the 180th meridian
-      nextLat += nextLat - lat > 180 ? -360 : lat - nextLat > 180 ? 360 : 0;
-      lines.push([[lat, lng], [nextLat, nextLng]]);
+      nextLng += nextLng - lng > 180 ? -360 : lng - nextLng > 180 ? 360 : 0;
+      lines.push([[lng, lat], [nextLng, nextLat]]);
     }
 
     return isUnique;
