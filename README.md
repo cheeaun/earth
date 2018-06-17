@@ -38,7 +38,7 @@ ACCESS_TOKEN=XXX
 
 ### Deployment to [Now](https://zeit.co/now)
 
-- `now --static` for deploying as static site
+- `now` for deploying as static site
 - `now alias` for aliasing to self-registered domain
 
 Notes
