@@ -43,7 +43,7 @@ function toggleInteractive(){
 }
 map.on('click', toggleInteractive);
 
-const numberWithCommas = x => x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+const numberWithCommas = x => x > 999 ? x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') : x;
 
 map.addControl(new mapboxgl.AttributionControl({ compact: true }), 'top-right');
 
