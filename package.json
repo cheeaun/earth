@@ -13,23 +13,6 @@
       ]
     ]
   },
-  "now": {
-    "name": "cheeaun-earth",
-    "alias": "cheeaun.earth",
-    "type": "static",
-    "files": [
-      "index.html",
-      "favicon.ico",
-      "assets/app.raw.css",
-      "assets/app.css",
-      "assets/app.css.map",
-      "assets/app.raw.js",
-      "assets/app.js",
-      "assets/app.js.map",
-      "data/checkins.min.geojson",
-      "data/countries"
-    ]
-  },
   "scripts": {
     "start": "npm run dev | serve",
     "build": "rollup -c",
