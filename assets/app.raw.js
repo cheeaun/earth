@@ -11,7 +11,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiY2hlZWF1biIsImEiOiJjam9yZDY3OGkwZGVkM3dsaGQ3c
 
 const map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/cheeaun/cixol8ezg002g2rqs007w3jmt?optimize=true',
+  style: 'https://maps.tilehosting.com/styles/darkmatter/style.json?key=xjrAbdVfXA48AYcOS16e',
   maxZoom: 15.5,
   logoPosition: 'top-right',
   attributionControl: false,
