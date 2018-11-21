@@ -1,13 +1,5 @@
-*
-!index.html
-!favicon.ico
-!*/
-
-data/*
-!data/checkins.min.geojson
-!data/countries/**
-
-!assets/**
-
+README.md
+screenshot.png
+data/checkins.geojson
 design/**
 scripts/**
