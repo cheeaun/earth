@@ -14,9 +14,10 @@
     ]
   },
   "scripts": {
-    "start": "npm run dev | serve",
+    "start": "npm-run-all --parallel dev serve",
     "build": "rollup -c",
     "dev": "rollup -c -w",
+    "serve": "serve",
     "mapsicon": "if [ ! -d \"node_modules/mapsicon\" ]; then napa Sn3b/mapsicon; fi",
     "checkins": "npm run foursquare && npm run geojson",
     "foursquare": "node scripts/get-checkins.js",
@@ -33,6 +34,7 @@
     "dotenv": "~6.1.0",
     "got": "~9.3.2",
     "napa": "~3.0.0",
+    "npm-run-all": "~4.1.5",
     "paper": "~0.11.8",
     "postcss-clean": "~1.1.0",
     "rollup": "~0.67.3",
