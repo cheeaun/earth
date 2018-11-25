@@ -207,6 +207,17 @@ Promise.all([
   });
   const labelLayerId = labelLayerIdx !== -1 ? layers[labelLayerIdx].id : undefined;
 
+  layers.forEach(function(layer){
+    if (layer['source-layer'] === 'place' && layer.maxzoom){
+      map.setLayerZoomRange(layer.id, Math.min(layer.maxzoom-4, 24), 24);
+    } else if (layer['source-layer'] === 'boundary'){
+      map.setPaintProperty(layer.id, 'line-opacity', .2);
+    } else if (layer['source-layer'] === 'transportation'){
+      map.setPaintProperty(layer.id, 'line-opacity', .6);
+    }
+  });
+  map.setPaintProperty('background', 'background-color', '#080808');
+
   map.addSource('checkins', {
     type: 'geojson',
     data: data,
@@ -317,16 +328,16 @@ Promise.all([
 
   map.addLayer({
     id: '3d-buildings',
-    source: 'composite',
+    source: 'openmaptiles',
     'source-layer': 'building',
-    filter: ['==', 'extrude', 'true'],
     type: 'fill-extrusion',
-    minzoom: 15,
+    minzoom: 14,
     paint: {
       'fill-extrusion-color': '#999',
-      'fill-extrusion-height': {
-        type: 'identity',
-        property: 'height',
+      'fill-extrusion-height': 50,
+      'fill-extrusion-opacity': .1,
+    },
+  }, labelLayerId);
       },
       'fill-extrusion-base': {
         type: 'identity',
