@@ -336,9 +336,6 @@ Promise.all([
       'fill-extrusion-color': '#999',
       'fill-extrusion-height': 50,
       'fill-extrusion-opacity': .1,
-    },
-  }, labelLayerId);
-      },
       'fill-extrusion-base': {
         type: 'identity',
         property: 'min_height',
