@@ -4,6 +4,7974 @@
 		{
 			"type": "Feature",
 			"properties": {
+				"id": "4b058815f964a520afb022e3",
+				"date": 20190112,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.845,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "588436cc1174205cf159a964",
+				"date": 20190112,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.841,
+					1.299
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b066e8df964a520c7eb22e3",
+				"date": 20190112,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.845,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4c8a119a3dc2a1cdce53a932",
+				"date": 20190109,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.804,
+					1.288
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b764f18f964a520b2472ee3",
+				"date": 20190109,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.804,
+					1.288
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bd70bbc7b1876b0bd788d86",
+				"date": 20190109,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.787,
+					1.299
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b24c9d0f964a520cf6924e3",
+				"date": 20190109,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.85,
+					1.306
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53846ead498eefac457266e7",
+				"date": 20190107,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.856,
+					1.297
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5b17aea93f5c69002cc29fb4",
+				"date": 20190104,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.852,
+					1.277
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b066e8df964a520c7eb22e3",
+				"date": 20190104,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.845,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4c047590310fc9b6e662c761",
+				"date": 20190103,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.302
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5033927145b0fe4ffcd607d8",
+				"date": 20181229,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.789,
+					1.306
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ec4a1b1e5fa74ea530619fc",
+				"date": 20181229,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.789,
+					1.307
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b1fa3b1f964a520982724e3",
+				"date": 20181229,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.862,
+					1.32
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "56559943498e51f8fafce9b3",
+				"date": 20181228,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181228,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4d088e74143cb60cbcdf7ba6",
+				"date": 20181227,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20181227,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181227,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "522efd8d11d2da60e9941875",
+				"date": 20181227,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181227,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5ae69df9ff0306002c4d5d32",
+				"date": 20181227,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181226,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59cde607d1a40206caaa04d5",
+				"date": 20181226,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181226,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181226,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "543334fb498ed2ae58495828",
+				"date": 20181224,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181224,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181221,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5c1c7ebb65211f002c560682",
+				"date": 20181221,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181221,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a95f18e588e3656a03cdf17",
+				"date": 20181220,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181220,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181220,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181220,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181219,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20181219,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181219,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20181219,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4d088e74143cb60cbcdf7ba6",
+				"date": 20181218,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5b17aea93f5c69002cc29fb4",
+				"date": 20181218,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.852,
+					1.277
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181218,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5ab4b22d67f62b7f0124caa7",
+				"date": 20181215,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.276
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5bd7c143cb3fd2002caa6bc0",
+				"date": 20181212,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.863,
+					1.322
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b529ebdf964a520218427e3",
+				"date": 20181211,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.309
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181211,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a95f18e588e3656a03cdf17",
+				"date": 20181210,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181210,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20181210,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181210,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181207,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59cde607d1a40206caaa04d5",
+				"date": 20181207,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181207,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181207,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181206,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181206,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181206,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181205,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20181205,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181205,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5bd7c143cb3fd2002caa6bc0",
+				"date": 20181203,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.863,
+					1.322
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b1fa3b1f964a520982724e3",
+				"date": 20181202,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.862,
+					1.32
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b058818f964a520a7b122e3",
+				"date": 20181202,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.822,
+					1.265
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b5ae0f7f964a52075d828e3",
+				"date": 20181202,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.822,
+					1.263
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "525a368f11d236eeeaf8429d",
+				"date": 20181202,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.853,
+					1.327
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b1fa3b1f964a520982724e3",
+				"date": 20181201,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.862,
+					1.32
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b0e8661f964a520445823e3",
+				"date": 20181201,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.902,
+					1.405
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "56a07f70498e2c0eaa62d60f",
+				"date": 20181201,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.902,
+					1.407
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "516d1fc7498e1277107cfd36",
+				"date": 20181201,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.902,
+					1.405
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4d9a6706b4fa3704e555850d",
+				"date": 20181201,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.901,
+					1.4
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "588ab9417220e605c346a3a5",
+				"date": 20181130,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.854,
+					1.299
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4c1c4e18624b9c742dc31204",
+				"date": 20181130,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.853,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181130,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a95f18e588e3656a03cdf17",
+				"date": 20181129,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181129,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59cde607d1a40206caaa04d5",
+				"date": 20181129,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181129,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "51209990e4b0bc189386ec96",
+				"date": 20181128,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.843,
+					1.274
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b19f6bef964a52097e623e3",
+				"date": 20181128,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.846,
+					1.277
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181128,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5bb427e7811045002c61d968",
+				"date": 20181128,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181128,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "52da049f498eb1d64350413d",
+				"date": 20181127,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.851,
+					1.281
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bce864529d4b713b2cda8dc",
+				"date": 20181127,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.849,
+					1.283
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "550d7de1498e54d47b023460",
+				"date": 20181127,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20181127,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181127,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20181127,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5569fff5498e977c16882f99",
+				"date": 20181126,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181126,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b68c57df964a5200f8c2be3",
+				"date": 20181124,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.863,
+					1.319
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b68d2b3f964a520c28e2be3",
+				"date": 20181124,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.839,
+					1.281
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "51209990e4b0bc189386ec96",
+				"date": 20181124,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.843,
+					1.274
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b1fa3b1f964a520982724e3",
+				"date": 20181124,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.862,
+					1.32
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "54a0ceca498ee55ba16293d0",
+				"date": 20181123,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.862,
+					1.308
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "55865075498e35640c54df12",
+				"date": 20181123,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181123,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a9ccd3c065ef5259c393f09",
+				"date": 20181123,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181123,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5ae69df9ff0306002c4d5d32",
+				"date": 20181123,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4d088e74143cb60cbcdf7ba6",
+				"date": 20181122,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20181122,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181122,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181122,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20181122,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4f7c0bfae4b0de4ca1abeed0",
+				"date": 20181121,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.302
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4fd44715c2ee7293367efddb",
+				"date": 20181121,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.853,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5021e8d2e4b0c71833a29054",
+				"date": 20181121,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.856,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181121,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181120,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181120,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b058812f964a520fbaf22e3",
+				"date": 20181119,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.846,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181119,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20181119,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181119,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "51209990e4b0bc189386ec96",
+				"date": 20181117,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.843,
+					1.274
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba75420f964a520048c39e3",
+				"date": 20181117,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.843,
+					1.274
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b68d2b3f964a520c28e2be3",
+				"date": 20181117,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.839,
+					1.281
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181116,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "522efd8d11d2da60e9941875",
+				"date": 20181116,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181116,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181115,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181115,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181114,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59dd983e86f4cc66fd5d8127",
+				"date": 20181114,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181114,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181114,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181113,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59cde607d1a40206caaa04d5",
+				"date": 20181113,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181113,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181112,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20181112,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181112,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181112,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b7cc3c4f964a520a4a42fe3",
+				"date": 20181110,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.851,
+					1.284
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181109,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a66c1e09e0d5424e2b5f380",
+				"date": 20181109,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.298
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181109,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181108,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181108,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20181107,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181107,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5bd7c143cb3fd2002caa6bc0",
+				"date": 20181105,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.863,
+					1.322
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bb98a39b35776b01f01ca01",
+				"date": 20181105,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181105,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b7cc3c4f964a520a4a42fe3",
+				"date": 20181103,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.851,
+					1.284
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b18f00ff964a5209ed623e3",
+				"date": 20181102,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.289
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5b1a7db9b3c9610039004bbf",
+				"date": 20181102,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.845,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "58d36dd78ae36338aa3ee56a",
+				"date": 20181102,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.846,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b18f00ff964a5209ed623e3",
+				"date": 20181102,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.289
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20181031,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181031,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20181031,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5bd7c143cb3fd2002caa6bc0",
+				"date": 20181030,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.863,
+					1.322
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4cf2345b94feb1f7f2191cba",
+				"date": 20181028,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.862,
+					1.32
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ee55e85d3e34ebcf0bf7c37",
+				"date": 20181027,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.281
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b5edab6f964a520099b29e3",
+				"date": 20181027,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.848,
+					1.283
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5ac715283ba7670ce8af447f",
+				"date": 20181026,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181026,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20181026,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181025,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ca1a58519e4236a32b66b89",
+				"date": 20181025,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181025,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20181024,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181024,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20181024,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "51209990e4b0bc189386ec96",
+				"date": 20181020,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.843,
+					1.274
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20181019,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59dd983e86f4cc66fd5d8127",
+				"date": 20181019,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181019,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20181019,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181018,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20181018,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181017,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bfdf43bb68d0f473c9ee957",
+				"date": 20181016,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.856,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181016,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181015,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ee55e85d3e34ebcf0bf7c37",
+				"date": 20181013,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.281
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b231bc2f964a520635324e3",
+				"date": 20181013,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.848,
+					1.284
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "52297ff911d29a458721f4d0",
+				"date": 20181012,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181012,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20181012,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b058814f964a52080b022e3",
+				"date": 20181011,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.845,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181011,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "57c7b929498e9228b0ce47c9",
+				"date": 20181010,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181010,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "583c2e89d439073da70346f4",
+				"date": 20181009,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.844,
+					1.283
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5ab4b22d67f62b7f0124caa7",
+				"date": 20181009,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.276
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53bcffb7498ebfa47ad24f0c",
+				"date": 20181009,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181009,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20181009,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181008,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20181008,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ee55e85d3e34ebcf0bf7c37",
+				"date": 20181006,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.281
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5aa764c6974617243a8f4ab9",
+				"date": 20181006,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.848,
+					1.283
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181005,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181004,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20181004,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181003,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bc00c1474a9a593a1a3cff6",
+				"date": 20181003,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181002,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bc00c1474a9a593a1a3cff6",
+				"date": 20181002,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20181001,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20181001,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20181001,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bce864529d4b713b2cda8dc",
+				"date": 20180929,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.849,
+					1.283
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180928,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180928,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180927,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ca1a58519e4236a32b66b89",
+				"date": 20180927,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180927,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b24d844f964a5201f6a24e3",
+				"date": 20180926,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20180926,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "522efd8d11d2da60e9941875",
+				"date": 20180926,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180926,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180926,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180925,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180925,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180925,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20180924,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180924,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ee55e85d3e34ebcf0bf7c37",
+				"date": 20180922,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.281
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bce864529d4b713b2cda8dc",
+				"date": 20180922,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.849,
+					1.283
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "522efd8d11d2da60e9941875",
+				"date": 20180921,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180921,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180921,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a71e54975eee43f9083e96a",
+				"date": 20180920,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.855,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b136376f964a520c39623e3",
+				"date": 20180920,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.855,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53bcffb7498ebfa47ad24f0c",
+				"date": 20180920,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180920,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180920,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180919,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20180919,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180919,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180919,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180918,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b24d844f964a5201f6a24e3",
+				"date": 20180917,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180917,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180917,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20180917,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ee55e85d3e34ebcf0bf7c37",
+				"date": 20180915,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.281
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bce864529d4b713b2cda8dc",
+				"date": 20180915,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.849,
+					1.283
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5b97658c86bc4900390c1ff3",
+				"date": 20180914,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "56502058498e3f2b642529ff",
+				"date": 20180914,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180914,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180913,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "57b9863f498e0fc1b3d0b5c0",
+				"date": 20180913,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180913,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "57712aad498e0a8a46e72d8f",
+				"date": 20180912,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.854,
+					1.299
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180912,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4c08d48abbc676b0bb1b47d5",
+				"date": 20180912,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20180911,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180911,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180911,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53a25f37498e44fe55aa6cac",
+				"date": 20180910,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180910,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180910,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b18f00ff964a5209ed623e3",
+				"date": 20180908,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.289
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b3acd95f964a520a36e25e3",
+				"date": 20180908,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.845,
+					1.285
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5919373a5315935b271a1f4f",
+				"date": 20180908,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.849,
+					1.282
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b1fa3b1f964a520982724e3",
+				"date": 20180908,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.862,
+					1.32
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20180907,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bd811e909ecb7133ffc477c",
+				"date": 20180907,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59cde607d1a40206caaa04d5",
+				"date": 20180907,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180907,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180907,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180906,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180906,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4e2e9bdb8130c05c18ce828b",
+				"date": 20180906,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.864,
+					1.319
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180905,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20180905,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180905,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180905,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b68c57df964a5200f8c2be3",
+				"date": 20180904,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.863,
+					1.319
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d31e8498fbfc0c91a2b9c1",
+				"date": 20180904,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b62d137f964a520ed532ae3",
+				"date": 20180904,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.856,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180904,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180904,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b24d844f964a5201f6a24e3",
+				"date": 20180903,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180903,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53a25f37498e44fe55aa6cac",
+				"date": 20180903,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180903,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a7af18ce2d4aa5fbaf54294",
+				"date": 20180901,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.843,
+					1.32
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b231bc2f964a520635324e3",
+				"date": 20180901,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.848,
+					1.284
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b21d6abf964a520db4124e3",
+				"date": 20180831,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.843,
+					1.282
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53870d2e498e11317d20656e",
+				"date": 20180831,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "52297ff911d29a458721f4d0",
+				"date": 20180831,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180831,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a95f18e588e3656a03cdf17",
+				"date": 20180830,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5ac715283ba7670ce8af447f",
+				"date": 20180830,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20180830,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180830,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20180830,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180829,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180829,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "579930a5cd10bd65450b972f",
+				"date": 20180828,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.853,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180828,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20180828,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180828,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180828,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "585bb3ed469aef7d5301c2c8",
+				"date": 20180827,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180827,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180827,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "56502058498e3f2b642529ff",
+				"date": 20180824,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180824,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20180823,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180823,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180823,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5b430ea1f0b490002c91f294",
+				"date": 20180822,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.913,
+					1.403
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "56e3d088cd1091b0bc7c995e",
+				"date": 20180822,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.914,
+					1.405
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a279566418686416ee90f51",
+				"date": 20180822,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.913,
+					1.403
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b0e8661f964a520445823e3",
+				"date": 20180822,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.902,
+					1.405
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5048a657e4b0a1f972e5ed50",
+				"date": 20180821,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.302
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b1c84f5f964a5201b0824e3",
+				"date": 20180821,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.838,
+					1.301
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b279e63f964a520d88724e3",
+				"date": 20180821,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.837,
+					1.312
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180821,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a95f18e588e3656a03cdf17",
+				"date": 20180820,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180820,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20180820,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180820,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180820,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "51a86a6b498ef2d5e7dd89e6",
+				"date": 20180818,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.852,
+					1.303
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180817,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b529ebdf964a520218427e3",
+				"date": 20180817,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.309
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180817,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180817,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180816,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bb9c1a6935e9521d3512790",
+				"date": 20180815,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.856,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b7f8cb6f964a520093430e3",
+				"date": 20180815,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.853,
+					1.303
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180815,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180815,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180814,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5b7270286f0aa2002c60486f",
+				"date": 20180814,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180814,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180814,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5021e8d2e4b0c71833a29054",
+				"date": 20180813,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.856,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180813,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5ac9f0ecd552c7757dc17941",
+				"date": 20180810,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180810,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20180810,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180810,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20180810,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4befc578c601a59321fac2d1",
+				"date": 20180808,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "575c6b71498e2739e15f38df",
+				"date": 20180808,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.855,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59d3271fd0a14922fbd8b097",
+				"date": 20180808,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.853,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180808,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bce864529d4b713b2cda8dc",
+				"date": 20180807,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.849,
+					1.283
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bc9257968f976b031ef5c83",
+				"date": 20180807,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4f7c0bfae4b0de4ca1abeed0",
+				"date": 20180807,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.302
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180807,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20180807,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180807,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180806,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20180806,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180806,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20180806,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59dd983e86f4cc66fd5d8127",
+				"date": 20180803,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180803,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180803,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bce864529d4b713b2cda8dc",
+				"date": 20180802,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.849,
+					1.283
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180802,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20180802,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180802,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20180802,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a95f18e588e3656a03cdf17",
+				"date": 20180801,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180801,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "56502058498e3f2b642529ff",
+				"date": 20180801,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180801,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20180801,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "54a0ceca498ee55ba16293d0",
+				"date": 20180731,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.862,
+					1.308
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180731,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20180731,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180731,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5048a657e4b0a1f972e5ed50",
+				"date": 20180730,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.302
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180730,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53a25f37498e44fe55aa6cac",
+				"date": 20180730,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180730,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a097d316bd36b4be1f58013",
+				"date": 20180729,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.988,
+					1.355
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b0bd124f964a520e03323e3",
+				"date": 20180729,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.987,
+					1.356
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "50b2b7bfe4b0b13f4d014a22",
+				"date": 20180729,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.265,
+					5.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4c637250edb29c740cdb39a7",
+				"date": 20180729,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.266,
+					5.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4c97506494debfb7c237ac76",
+				"date": 20180729,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.306,
+					5.389
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b7d0e53f964a52060ad2fe3",
+				"date": 20180729,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.325,
+					5.422
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4c807bcbd6ebbfb7113d3ca4",
+				"date": 20180729,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.326,
+					5.422
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b7d0e53f964a52060ad2fe3",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.325,
+					5.422
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bd2ffaecaff95219dbfd3f0",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.333,
+					5.416
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4cad5bec2303a14358c4e5f0",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.331,
+					5.416
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b4545eaf964a520990926e3",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.33,
+					5.415
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5701c2a4498eb29770d1ba76",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.33,
+					5.415
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bef9750c80dc928d32728e3",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.331,
+					5.416
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4c45797f36d6a5939fdb6ba8",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.325,
+					5.421
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4c6a82058d22c9286ee3b945",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.321,
+					5.424
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4cdfa75cc4f6a35dc9d2d16c",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.322,
+					5.423
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4dbcfe95f7b1ab37dd6d2671",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.336,
+					5.42
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b43e088f964a520f2ec25e3",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.31,
+					5.438
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b7d0e53f964a52060ad2fe3",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.325,
+					5.422
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "51d6cf2a498ebc02352ba8cb",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.333,
+					5.419
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bca9176937ca593f841a892",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.331,
+					5.417
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4cc3af95b2beb1f75185184c",
+				"date": 20180728,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.332,
+					5.416
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bc08520920eb713a301192c",
+				"date": 20180727,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.327,
+					5.415
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4d6f1723a045721eef3221b8",
+				"date": 20180727,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.324,
+					5.416
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b7d0e53f964a52060ad2fe3",
+				"date": 20180727,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.325,
+					5.422
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bd2ffaecaff95219dbfd3f0",
+				"date": 20180727,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.333,
+					5.416
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b43df4ff964a520cfec25e3",
+				"date": 20180727,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.307,
+					5.333
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4c97506494debfb7c237ac76",
+				"date": 20180727,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.306,
+					5.389
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4d968ff5af3d236ae7270ec7",
+				"date": 20180727,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.295,
+					5.413
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4e19ae61b61c8f9ada579a0c",
+				"date": 20180727,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.374,
+					5.41
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4cc0e7d9d363721e120257c9",
+				"date": 20180727,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.326,
+					5.422
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b7d0e53f964a52060ad2fe3",
+				"date": 20180726,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.325,
+					5.422
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4cba836cdd41a35ddafde8a0",
+				"date": 20180726,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.326,
+					5.422
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b7d0e53f964a52060ad2fe3",
+				"date": 20180726,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.325,
+					5.422
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4c637250edb29c740cdb39a7",
+				"date": 20180726,
+				"country": "Malaysia",
+				"cc": "MY"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					100.266,
+					5.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bc00c5bb492d13a72d8a360",
+				"date": 20180726,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.994,
+					1.364
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b0bd124f964a520e03323e3",
+				"date": 20180726,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.987,
+					1.356
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "56b6aff6498ec22913615eba",
+				"date": 20180725,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.861,
+					1.306
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180725,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20180725,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180725,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20180725,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180724,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20180724,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180724,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53870d2e498e11317d20656e",
+				"date": 20180723,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "585bb3ed469aef7d5301c2c8",
+				"date": 20180723,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180723,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b1fa3b1f964a520982724e3",
+				"date": 20180720,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.862,
+					1.32
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "56b6aff6498ec22913615eba",
+				"date": 20180720,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.861,
+					1.306
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "56559943498e51f8fafce9b3",
+				"date": 20180720,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180720,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180719,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ca1a58519e4236a32b66b89",
+				"date": 20180719,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180719,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "57c7b929498e9228b0ce47c9",
+				"date": 20180718,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "56d2b413cd10ac3ebbc6d860",
+				"date": 20180718,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180718,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5021e8d2e4b0c71833a29054",
+				"date": 20180717,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.856,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180717,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180716,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20180716,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180716,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ee55e85d3e34ebcf0bf7c37",
+				"date": 20180714,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.281
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4da9499343a1128196d998f1",
+				"date": 20180714,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.283
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4afa194af964a520b71622e3",
+				"date": 20180714,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.847,
+					1.289
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b4feb11f964a520801927e3",
+				"date": 20180714,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.849,
+					1.283
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b166e4ef964a520fdb823e3",
+				"date": 20180714,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.844,
+					1.284
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5ae69df9ff0306002c4d5d32",
+				"date": 20180713,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "57b9863f498e0fc1b3d0b5c0",
+				"date": 20180713,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180713,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "543334fb498ed2ae58495828",
+				"date": 20180712,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5947b202061b51682cedc845",
+				"date": 20180712,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180712,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20180711,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ba57c79f964a520dc0b39e3",
+				"date": 20180711,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20180711,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "543334fb498ed2ae58495828",
+				"date": 20180711,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180711,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180710,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180710,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180709,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180709,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bd811e909ecb7133ffc477c",
+				"date": 20180706,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "585bb3ed469aef7d5301c2c8",
+				"date": 20180706,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180706,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4d58bc313281b1f7b468b32f",
+				"date": 20180705,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.843,
+					1.277
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "51076788e4b03a8fd41b8aed",
+				"date": 20180705,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.842,
+					1.274
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180705,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180704,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a9ccd3c065ef5259c393f09",
+				"date": 20180704,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180704,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180703,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180702,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b8f48cff964a520615033e3",
+				"date": 20180702,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180629,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180629,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4ca1a58519e4236a32b66b89",
+				"date": 20180629,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5021e8d2e4b0c71833a29054",
+				"date": 20180628,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.856,
+					1.293
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5b3377496fd626002c6d5b80",
+				"date": 20180627,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.842,
+					1.279
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180627,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4bd811e909ecb7133ffc477c",
+				"date": 20180627,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "59cde607d1a40206caaa04d5",
+				"date": 20180627,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "55235e30498e38c39d8fab24",
+				"date": 20180626,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.842,
+					1.279
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180626,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180625,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53a25f37498e44fe55aa6cac",
+				"date": 20180625,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180622,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e3037a498edbea25e525d9",
+				"date": 20180622,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5a1cf627a879213b6cde8df1",
+				"date": 20180621,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.858,
+					1.294
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "595f10adee712007dcd63503",
+				"date": 20180621,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.86,
+					1.292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b25eec6f964a5209b7724e3",
+				"date": 20180621,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.29
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180621,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "585bb3ed469aef7d5301c2c8",
+				"date": 20180620,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.857,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180620,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "56502058498e3f2b642529ff",
+				"date": 20180619,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.295
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180619,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b136376f964a520c39623e3",
+				"date": 20180618,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.855,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "53e09ea3498e7c2655152de2",
+				"date": 20180618,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.859,
+					1.296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b51adc9f964a5205d5227e3",
+				"date": 20180618,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.856,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4b62d137f964a520ed532ae3",
+				"date": 20180618,
+				"country": "Singapore",
+				"cc": "SG"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					103.856,
+					1.3
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"id": "4efee1fb4690f6ece956dc2f",
 				"date": 20180615,
 				"country": "Singapore",
@@ -44,8 +8012,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -348,7 +8316,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					113.561,
+					113.56,
 					22.148
 				]
 			}
@@ -365,7 +8333,7 @@
 				"type": "Point",
 				"coordinates": [
 					113.557,
-					22.154
+					22.153
 				]
 			}
 		},
@@ -468,7 +8436,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "4d71c109f7c38cfa4e599b3d",
+				"id": "4d79f20618db6ea84b295a53",
 				"date": 20180612,
 				"country": "Macao",
 				"cc": "MO"
@@ -477,7 +8445,7 @@
 				"type": "Point",
 				"coordinates": [
 					113.546,
-					22.18
+					22.175
 				]
 			}
 		},
@@ -716,8 +8684,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					114.144,
-					22.287
+					114.142,
+					22.286
 				]
 			}
 		},
@@ -892,8 +8860,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					114.167,
-					22.304
+					114.166,
+					22.305
 				]
 			}
 		},
@@ -908,7 +8876,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					114.181,
+					114.182,
 					22.303
 				]
 			}
@@ -988,7 +8956,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					114.173,
+					114.172,
 					22.282
 				]
 			}
@@ -1532,8 +9500,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -1644,7 +9612,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.863,
+					103.862,
 					1.308
 				]
 			}
@@ -1948,8 +9916,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.856,
-					1.296
+					103.858,
+					1.294
 				]
 			}
 		},
@@ -2156,7 +10124,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.863,
+					103.862,
 					1.308
 				]
 			}
@@ -2317,7 +10285,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.858,
-					1.292
+					1.291
 				]
 			}
 		},
@@ -2492,8 +10460,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -2876,7 +10844,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					126.976,
+					126.975,
 					37.577
 				]
 			}
@@ -3100,8 +11068,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					127.022,
-					37.519
+					127.023,
+					37.518
 				]
 			}
 		},
@@ -3949,7 +11917,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.86,
-					1.294
+					1.293
 				]
 			}
 		},
@@ -4029,7 +11997,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.858,
-					1.292
+					1.291
 				]
 			}
 		},
@@ -4108,8 +12076,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -4141,7 +12109,7 @@
 				"type": "Point",
 				"coordinates": [
 					121.238,
-					25.082
+					25.081
 				]
 			}
 		},
@@ -4156,7 +12124,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					121.233,
+					121.232,
 					25.077
 				]
 			}
@@ -4189,7 +12157,7 @@
 				"type": "Point",
 				"coordinates": [
 					121.238,
-					25.082
+					25.081
 				]
 			}
 		},
@@ -4220,7 +12188,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					121.515,
+					121.514,
 					25.049
 				]
 			}
@@ -4269,7 +12237,7 @@
 				"type": "Point",
 				"coordinates": [
 					121.507,
-					25.043
+					25.044
 				]
 			}
 		},
@@ -4700,7 +12668,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					121.518,
+					121.517,
 					25.047
 				]
 			}
@@ -4749,7 +12717,7 @@
 				"type": "Point",
 				"coordinates": [
 					121.562,
-					25.052
+					25.051
 				]
 			}
 		},
@@ -4813,7 +12781,7 @@
 				"type": "Point",
 				"coordinates": [
 					121.507,
-					25.043
+					25.044
 				]
 			}
 		},
@@ -4877,7 +12845,7 @@
 				"type": "Point",
 				"coordinates": [
 					121.507,
-					25.043
+					25.044
 				]
 			}
 		},
@@ -5468,7 +13436,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					121.553,
+					121.552,
 					25.064
 				]
 			}
@@ -5772,7 +13740,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					121.561,
+					121.56,
 					25.044
 				]
 			}
@@ -5884,7 +13852,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					121.518,
+					121.517,
 					25.047
 				]
 			}
@@ -6108,8 +14076,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					121.237,
-					25.081
+					121.234,
+					25.079
 				]
 			}
 		},
@@ -6124,8 +14092,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -6908,7 +14876,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.821,
+					103.822,
 					1.265
 				]
 			}
@@ -7580,8 +15548,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.856,
-					1.296
+					103.843,
+					1.278
 				]
 			}
 		},
@@ -7773,7 +15741,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.858,
-					1.292
+					1.291
 				]
 			}
 		},
@@ -8029,7 +15997,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.991,
-					1.361
+					1.362
 				]
 			}
 		},
@@ -8044,8 +16012,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -8188,8 +16156,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.343,
-					5.414
+					100.344,
+					5.413
 				]
 			}
 		},
@@ -8220,7 +16188,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.364,
+					100.365,
 					5.395
 				]
 			}
@@ -8381,7 +16349,7 @@
 				"type": "Point",
 				"coordinates": [
 					100.537,
-					5.376
+					5.377
 				]
 			}
 		},
@@ -8524,8 +16492,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -8972,8 +16940,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.856,
-					1.296
+					103.858,
+					1.294
 				]
 			}
 		},
@@ -10397,7 +18365,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.81,
-					1.257
+					1.258
 				]
 			}
 		},
@@ -10429,7 +18397,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.822,
-					1.264
+					1.265
 				]
 			}
 		},
@@ -11660,8 +19628,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.856,
-					1.296
+					103.858,
+					1.294
 				]
 			}
 		},
@@ -11692,8 +19660,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.856,
-					1.296
+					103.858,
+					1.294
 				]
 			}
 		},
@@ -12060,8 +20028,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.856,
-					1.296
+					103.858,
+					1.294
 				]
 			}
 		},
@@ -14541,7 +22509,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.86,
-					1.294
+					1.293
 				]
 			}
 		},
@@ -14812,7 +22780,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.893,
+					103.892,
 					1.318
 				]
 			}
@@ -15293,7 +23261,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.822,
-					1.264
+					1.265
 				]
 			}
 		},
@@ -16365,7 +24333,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.858,
-					1.292
+					1.291
 				]
 			}
 		},
@@ -17005,7 +24973,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -17069,7 +25037,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.858,
-					1.292
+					1.291
 				]
 			}
 		},
@@ -17149,7 +25117,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.858,
-					1.292
+					1.291
 				]
 			}
 		},
@@ -17629,7 +25597,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.858,
-					1.292
+					1.291
 				]
 			}
 		},
@@ -17997,7 +25965,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.859,
-					1.283
+					1.284
 				]
 			}
 		},
@@ -18412,8 +26380,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.855,
-					1.289
+					103.854,
+					1.288
 				]
 			}
 		},
@@ -18620,8 +26588,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -18749,7 +26717,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.757,
-					35.655
+					35.656
 				]
 			}
 		},
@@ -19036,7 +27004,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					139.776,
+					139.777,
 					35.713
 				]
 			}
@@ -19108,7 +27076,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "5970207fdb1d817cc8ab919f",
+				"id": "4be6bac478e89521bdc764ce",
 				"date": 20170728,
 				"country": "Japan",
 				"cc": "JP"
@@ -19164,7 +27132,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					139.705,
+					139.704,
 					35.691
 				]
 			}
@@ -19324,7 +27292,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					139.712,
+					139.711,
 					35.665
 				]
 			}
@@ -19405,7 +27373,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.773,
-					35.699
+					35.698
 				]
 			}
 		},
@@ -19565,7 +27533,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.757,
-					35.655
+					35.656
 				]
 			}
 		},
@@ -19628,8 +27596,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -19661,7 +27629,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.853,
-					1.294
+					1.293
 				]
 			}
 		},
@@ -19884,7 +27852,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.845,
+					103.846,
 					1.3
 				]
 			}
@@ -20157,7 +28125,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -20237,7 +28205,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.858,
-					1.292
+					1.291
 				]
 			}
 		},
@@ -21132,7 +29100,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.848,
+					103.849,
 					1.283
 				]
 			}
@@ -21644,7 +29612,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.841,
+					103.842,
 					1.279
 				]
 			}
@@ -22188,8 +30156,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -22524,7 +30492,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					113.561,
+					113.56,
 					22.148
 				]
 			}
@@ -22604,7 +30572,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					113.561,
+					113.56,
 					22.148
 				]
 			}
@@ -23053,7 +31021,7 @@
 				"type": "Point",
 				"coordinates": [
 					114.154,
-					22.326
+					22.327
 				]
 			}
 		},
@@ -23068,8 +31036,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					114.167,
-					22.304
+					114.166,
+					22.305
 				]
 			}
 		},
@@ -23677,7 +31645,7 @@
 				"type": "Point",
 				"coordinates": [
 					114.172,
-					22.298
+					22.297
 				]
 			}
 		},
@@ -23708,7 +31676,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					114.168,
+					114.169,
 					22.296
 				]
 			}
@@ -23724,7 +31692,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					114.169,
+					114.168,
 					22.294
 				]
 			}
@@ -24204,8 +32172,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -26140,7 +34108,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.848,
+					103.847,
 					1.332
 				]
 			}
@@ -26188,7 +34156,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.851,
+					103.848,
 					1.335
 				]
 			}
@@ -27660,7 +35628,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.859,
+					103.86,
 					1.286
 				]
 			}
@@ -27996,8 +35964,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.893,
-					1.372
+					103.892,
+					1.371
 				]
 			}
 		},
@@ -29004,7 +36972,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.815,
+					103.816,
 					1.313
 				]
 			}
@@ -29036,7 +37004,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.815,
+					103.816,
 					1.313
 				]
 			}
@@ -29820,8 +37788,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -29980,8 +37948,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.385,
-					5.432
+					100.384,
+					5.431
 				]
 			}
 		},
@@ -30045,7 +38013,7 @@
 				"type": "Point",
 				"coordinates": [
 					100.382,
-					5.422
+					5.421
 				]
 			}
 		},
@@ -30125,7 +38093,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.989,
-					1.355
+					1.356
 				]
 			}
 		},
@@ -30140,8 +38108,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -30973,7 +38941,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.86,
-					1.294
+					1.293
 				]
 			}
 		},
@@ -33005,7 +40973,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.845,
-					1.299
+					1.3
 				]
 			}
 		},
@@ -33660,7 +41628,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.815,
+					103.816,
 					1.313
 				]
 			}
@@ -35516,7 +43484,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.791,
+					103.79,
 					1.307
 				]
 			}
@@ -35836,7 +43804,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.815,
+					103.816,
 					1.313
 				]
 			}
@@ -35965,7 +43933,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.822,
-					1.264
+					1.265
 				]
 			}
 		},
@@ -36477,7 +44445,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.822,
-					1.264
+					1.265
 				]
 			}
 		},
@@ -36492,7 +44460,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.821,
+					103.822,
 					1.265
 				]
 			}
@@ -36876,7 +44844,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.859,
+					103.86,
 					1.286
 				]
 			}
@@ -37036,7 +45004,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.747,
+					103.746,
 					1.335
 				]
 			}
@@ -37196,7 +45164,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.821,
+					103.822,
 					1.265
 				]
 			}
@@ -37420,7 +45388,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.859,
+					103.86,
 					1.286
 				]
 			}
@@ -37756,7 +45724,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.815,
+					103.816,
 					1.313
 				]
 			}
@@ -41332,7 +49300,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "549d605c498ed095cd32ba70",
+				"id": "4e4391e9fa76eeb2dab8a569",
 				"date": 20161021,
 				"country": "Singapore",
 				"cc": "SG"
@@ -41340,8 +49308,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.851,
-					1.287
+					103.85,
+					1.286
 				]
 			}
 		},
@@ -41468,7 +49436,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.841,
+					103.842,
 					1.279
 				]
 			}
@@ -42204,7 +50172,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.874,
+					103.873,
 					1.351
 				]
 			}
@@ -42220,7 +50188,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.848,
+					103.849,
 					1.351
 				]
 			}
@@ -42253,7 +50221,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.766,
-					1.465
+					1.464
 				]
 			}
 		},
@@ -42365,7 +50333,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.766,
-					1.465
+					1.464
 				]
 			}
 		},
@@ -42668,7 +50636,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.863,
+					103.862,
 					1.308
 				]
 			}
@@ -42701,7 +50669,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.859,
-					1.283
+					1.284
 				]
 			}
 		},
@@ -42733,7 +50701,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.86,
-					1.294
+					1.293
 				]
 			}
 		},
@@ -43052,8 +51020,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -43101,7 +51069,7 @@
 				"type": "Point",
 				"coordinates": [
 					100.751,
-					13.693
+					13.692
 				]
 			}
 		},
@@ -43149,7 +51117,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.757,
-					35.655
+					35.656
 				]
 			}
 		},
@@ -43597,7 +51565,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.758,
-					35.667
+					35.666
 				]
 			}
 		},
@@ -43756,7 +51724,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					139.712,
+					139.711,
 					35.665
 				]
 			}
@@ -43981,7 +51949,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.758,
-					35.667
+					35.666
 				]
 			}
 		},
@@ -44220,8 +52188,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					139.74,
-					35.734
+					139.739,
+					35.733
 				]
 			}
 		},
@@ -44237,7 +52205,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.758,
-					35.667
+					35.666
 				]
 			}
 		},
@@ -44557,7 +52525,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.758,
-					35.667
+					35.666
 				]
 			}
 		},
@@ -44717,7 +52685,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.773,
-					35.699
+					35.698
 				]
 			}
 		},
@@ -44748,7 +52716,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					139.776,
+					139.777,
 					35.713
 				]
 			}
@@ -44765,7 +52733,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.758,
-					35.667
+					35.666
 				]
 			}
 		},
@@ -44892,8 +52860,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					139.769,
-					35.681
+					139.768,
+					35.682
 				]
 			}
 		},
@@ -44989,7 +52957,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.758,
-					35.667
+					35.666
 				]
 			}
 		},
@@ -45053,7 +53021,7 @@
 				"type": "Point",
 				"coordinates": [
 					100.751,
-					13.693
+					13.692
 				]
 			}
 		},
@@ -45277,7 +53245,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.822,
-					1.264
+					1.265
 				]
 			}
 		},
@@ -45308,8 +53276,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.82,
-					1.256
+					103.821,
+					1.257
 				]
 			}
 		},
@@ -45324,7 +53292,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.821,
+					103.822,
 					1.265
 				]
 			}
@@ -45484,7 +53452,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.791,
+					103.79,
 					1.307
 				]
 			}
@@ -45532,7 +53500,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.791,
+					103.79,
 					1.307
 				]
 			}
@@ -45916,7 +53884,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.821,
+					103.822,
 					1.265
 				]
 			}
@@ -45948,7 +53916,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.791,
+					103.79,
 					1.307
 				]
 			}
@@ -46756,7 +54724,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "579081f0cd10d3d9d7a4e8b3",
+				"id": "4d58bc313281b1f7b468b32f",
 				"date": 20160830,
 				"country": "Singapore",
 				"cc": "SG"
@@ -46925,7 +54893,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.742,
-					1.333
+					1.334
 				]
 			}
 		},
@@ -48188,7 +56156,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.863,
+					103.862,
 					1.308
 				]
 			}
@@ -48685,7 +56653,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.845,
-					1.299
+					1.3
 				]
 			}
 		},
@@ -49164,7 +57132,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.848,
+					103.849,
 					1.351
 				]
 			}
@@ -49837,7 +57805,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.859,
-					1.283
+					1.284
 				]
 			}
 		},
@@ -49900,8 +57868,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -50125,7 +58093,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.989,
-					1.355
+					1.356
 				]
 			}
 		},
@@ -50941,7 +58909,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.86,
-					1.294
+					1.293
 				]
 			}
 		},
@@ -51036,7 +59004,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.893,
+					103.892,
 					1.318
 				]
 			}
@@ -51052,7 +59020,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.874,
+					103.873,
 					1.351
 				]
 			}
@@ -51389,7 +59357,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.963,
-					1.341
+					1.34
 				]
 			}
 		},
@@ -51436,7 +59404,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.791,
+					103.79,
 					1.307
 				]
 			}
@@ -51692,7 +59660,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.863,
+					103.862,
 					1.308
 				]
 			}
@@ -51933,7 +59901,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.932,
-					1.373
+					1.374
 				]
 			}
 		},
@@ -51981,7 +59949,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.832,
-					1.306
+					1.305
 				]
 			}
 		},
@@ -52316,7 +60284,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.96,
+					103.961,
 					1.335
 				]
 			}
@@ -53485,7 +61453,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.86,
-					1.294
+					1.293
 				]
 			}
 		},
@@ -53948,7 +61916,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.791,
+					103.79,
 					1.307
 				]
 			}
@@ -54556,8 +62524,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.853,
-					1.3
+					103.849,
+					1.299
 				]
 			}
 		},
@@ -54829,7 +62797,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -55052,7 +63020,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.848,
+					103.849,
 					1.351
 				]
 			}
@@ -55068,7 +63036,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.874,
+					103.873,
 					1.351
 				]
 			}
@@ -56925,7 +64893,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.742,
-					1.333
+					1.334
 				]
 			}
 		},
@@ -57021,7 +64989,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.742,
-					1.333
+					1.334
 				]
 			}
 		},
@@ -57052,7 +65020,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.863,
+					103.862,
 					1.308
 				]
 			}
@@ -57276,8 +65244,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -57484,8 +65452,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -57996,7 +65964,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.863,
+					103.862,
 					1.308
 				]
 			}
@@ -59501,7 +67469,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.86,
-					1.294
+					1.293
 				]
 			}
 		},
@@ -59964,7 +67932,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.791,
+					103.79,
 					1.307
 				]
 			}
@@ -60269,7 +68237,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.86,
-					1.294
+					1.293
 				]
 			}
 		},
@@ -61389,7 +69357,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -61884,8 +69852,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -62108,8 +70076,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.392,
-					5.386
+					100.391,
+					5.387
 				]
 			}
 		},
@@ -62316,8 +70284,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -62717,7 +70685,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.853,
-					1.294
+					1.293
 				]
 			}
 		},
@@ -62732,7 +70700,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.863,
+					103.862,
 					1.308
 				]
 			}
@@ -62956,7 +70924,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.848,
+					103.847,
 					1.332
 				]
 			}
@@ -63021,7 +70989,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -63532,8 +71500,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -63613,7 +71581,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.7,
-					35.691
+					35.69
 				]
 			}
 		},
@@ -63821,7 +71789,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.773,
-					35.699
+					35.698
 				]
 			}
 		},
@@ -63901,7 +71869,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.773,
-					35.699
+					35.698
 				]
 			}
 		},
@@ -64061,7 +72029,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.705,
-					35.691
+					35.69
 				]
 			}
 		},
@@ -64157,7 +72125,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.711,
-					35.647
+					35.648
 				]
 			}
 		},
@@ -64285,7 +72253,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.7,
-					35.691
+					35.69
 				]
 			}
 		},
@@ -64525,7 +72493,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.7,
-					35.691
+					35.69
 				]
 			}
 		},
@@ -64573,7 +72541,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.7,
-					35.691
+					35.69
 				]
 			}
 		},
@@ -64861,7 +72829,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.757,
-					35.655
+					35.656
 				]
 			}
 		},
@@ -64940,8 +72908,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.386,
-					37.618
+					-122.387,
+					37.617
 				]
 			}
 		},
@@ -65116,7 +73084,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.39,
+					-122.389,
 					37.778
 				]
 			}
@@ -65276,7 +73244,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.449,
+					-122.448,
 					37.8
 				]
 			}
@@ -65388,7 +73356,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.43,
+					-122.431,
 					37.805
 				]
 			}
@@ -65805,7 +73773,7 @@
 				"type": "Point",
 				"coordinates": [
 					-122.402,
-					37.789
+					37.788
 				]
 			}
 		},
@@ -65869,7 +73837,7 @@
 				"type": "Point",
 				"coordinates": [
 					-122.402,
-					37.789
+					37.788
 				]
 			}
 		},
@@ -65932,7 +73900,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.426,
+					-122.427,
 					37.759
 				]
 			}
@@ -65965,7 +73933,7 @@
 				"type": "Point",
 				"coordinates": [
 					-122.402,
-					37.789
+					37.788
 				]
 			}
 		},
@@ -66108,8 +74076,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.482,
-					37.769
+					-122.477,
+					37.767
 				]
 			}
 		},
@@ -66140,7 +74108,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.435,
+					-122.434,
 					37.776
 				]
 			}
@@ -66236,8 +74204,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.386,
-					37.618
+					-122.387,
+					37.617
 				]
 			}
 		},
@@ -66285,7 +74253,7 @@
 				"type": "Point",
 				"coordinates": [
 					135.244,
-					34.435
+					34.436
 				]
 			}
 		},
@@ -66365,7 +74333,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.773,
-					35.699
+					35.698
 				]
 			}
 		},
@@ -66669,7 +74637,7 @@
 				"type": "Point",
 				"coordinates": [
 					139.758,
-					35.667
+					35.666
 				]
 			}
 		},
@@ -66956,8 +74924,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					139.749,
-					35.693
+					139.751,
+					35.692
 				]
 			}
 		},
@@ -67452,8 +75420,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -67549,7 +75517,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -67645,7 +75613,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -67741,7 +75709,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -67837,7 +75805,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -67949,7 +75917,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -68029,7 +75997,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -68077,7 +76045,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -68157,7 +76125,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -68205,7 +76173,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -68285,7 +76253,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -68317,7 +76285,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -68509,7 +76477,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -68861,7 +76829,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -69101,7 +77069,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -69213,7 +77181,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -69277,7 +77245,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -69309,7 +77277,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -69405,7 +77373,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -69533,7 +77501,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -69853,7 +77821,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -69885,7 +77853,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -70029,7 +77997,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -70093,7 +78061,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -70189,7 +78157,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -70269,7 +78237,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -70429,7 +78397,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -70493,7 +78461,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -70573,7 +78541,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -70637,7 +78605,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -70781,7 +78749,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -70829,7 +78797,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -70989,7 +78957,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -71037,7 +79005,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -71133,7 +79101,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -71229,7 +79197,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.85,
-					1.283
+					1.282
 				]
 			}
 		},
@@ -71340,7 +79308,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.842,
+					103.841,
 					1.292
 				]
 			}
@@ -71564,8 +79532,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -72012,8 +79980,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					100.392,
-					5.386
+					100.391,
+					5.387
 				]
 			}
 		},
@@ -72093,7 +80061,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.989,
-					1.355
+					1.356
 				]
 			}
 		},
@@ -72924,8 +80892,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -72972,7 +80940,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.564,
+					2.566,
 					49.003
 				]
 			}
@@ -72988,8 +80956,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.571,
-					49.005
+					2.572,
+					49.006
 				]
 			}
 		},
@@ -73212,7 +81180,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.389,
+					2.39,
 					48.893
 				]
 			}
@@ -73388,7 +81356,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.238,
+					2.239,
 					48.891
 				]
 			}
@@ -73948,8 +81916,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					2.571,
-					49.005
+					2.572,
+					49.006
 				]
 			}
 		},
@@ -73980,8 +81948,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -74556,7 +82524,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.842,
+					103.841,
 					1.292
 				]
 			}
@@ -75628,8 +83596,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -76396,7 +84364,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					6.781,
+					6.78,
 					51.227
 				]
 			}
@@ -76637,7 +84605,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.989,
-					1.355
+					1.356
 				]
 			}
 		},
@@ -76860,8 +84828,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -76876,7 +84844,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					174.783,
+					174.784,
 					-37.005
 				]
 			}
@@ -77021,7 +84989,7 @@
 				"type": "Point",
 				"coordinates": [
 					174.831,
-					-36.848
+					-36.847
 				]
 			}
 		},
@@ -77628,7 +85596,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					174.783,
+					174.784,
 					-37.005
 				]
 			}
@@ -78205,7 +86173,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.822,
-					1.264
+					1.265
 				]
 			}
 		},
@@ -79036,7 +87004,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.84,
+					103.839,
 					1.29
 				]
 			}
@@ -79596,8 +87564,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -79677,7 +87645,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.989,
-					1.355
+					1.356
 				]
 			}
 		},
@@ -80580,7 +88548,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "4c903e506fbf224bfb54528f",
+				"id": "4c903ed8de3d236a707a6a18",
 				"date": 20150130,
 				"country": "Singapore",
 				"cc": "SG"
@@ -80732,8 +88700,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.883,
-					1.316
+					103.882,
+					1.315
 				]
 			}
 		},
@@ -81836,8 +89804,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -82140,8 +90108,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -83708,8 +91676,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -84180,7 +92148,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "4beb8c5561aca593cc3e8500",
+				"id": "4c3e46b7b8b4be9a07efcbef",
 				"date": 20141105,
 				"country": "Australia",
 				"cc": "AU"
@@ -84188,8 +92156,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					151.261,
-					-33.918
+					151.259,
+					-33.919
 				]
 			}
 		},
@@ -84316,7 +92284,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					151.275,
+					151.276,
 					-33.891
 				]
 			}
@@ -84828,7 +92796,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					151.209,
+					151.211,
 					-33.868
 				]
 			}
@@ -85084,7 +93052,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					151.21,
+					151.211,
 					-33.849
 				]
 			}
@@ -85100,8 +93068,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					151.202,
-					-33.876
+					151.203,
+					-33.877
 				]
 			}
 		},
@@ -85709,7 +93677,7 @@
 				"type": "Point",
 				"coordinates": [
 					151.207,
-					-33.872
+					-33.871
 				]
 			}
 		},
@@ -85789,7 +93757,7 @@
 				"type": "Point",
 				"coordinates": [
 					151.172,
-					-33.935
+					-33.936
 				]
 			}
 		},
@@ -85820,8 +93788,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -85996,8 +93964,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.83,
-					1.296
+					103.829,
+					1.297
 				]
 			}
 		},
@@ -86092,8 +94060,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -86109,7 +94077,7 @@
 				"type": "Point",
 				"coordinates": [
 					115.162,
-					-8.744
+					-8.745
 				]
 			}
 		},
@@ -86124,8 +94092,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					115.167,
-					-8.747
+					115.165,
+					-8.744
 				]
 			}
 		},
@@ -86156,8 +94124,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					115.167,
-					-8.747
+					115.165,
+					-8.744
 				]
 			}
 		},
@@ -86188,8 +94156,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -86908,8 +94876,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -87276,7 +95244,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					13.434,
+					13.432,
 					52.528
 				]
 			}
@@ -88188,8 +96156,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -88844,8 +96812,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.82,
-					1.256
+					103.821,
+					1.257
 				]
 			}
 		},
@@ -88956,8 +96924,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.82,
-					1.256
+					103.821,
+					1.257
 				]
 			}
 		},
@@ -88989,7 +96957,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.822,
-					1.264
+					1.265
 				]
 			}
 		},
@@ -89340,8 +97308,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.883,
-					1.316
+					103.882,
+					1.315
 				]
 			}
 		},
@@ -89645,7 +97613,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.832,
-					1.306
+					1.305
 				]
 			}
 		},
@@ -90413,7 +98381,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.859,
-					1.283
+					1.284
 				]
 			}
 		},
@@ -91052,7 +99020,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.791,
+					103.79,
 					1.307
 				]
 			}
@@ -91452,8 +99420,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.883,
-					1.316
+					103.882,
+					1.315
 				]
 			}
 		},
@@ -91468,7 +99436,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.842,
+					103.841,
 					1.292
 				]
 			}
@@ -92813,7 +100781,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.846,
-					1.291
+					1.29
 				]
 			}
 		},
@@ -93308,8 +101276,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.883,
-					1.316
+					103.882,
+					1.315
 				]
 			}
 		},
@@ -93517,7 +101485,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.846,
-					1.291
+					1.29
 				]
 			}
 		},
@@ -93676,8 +101644,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					103.988,
-					1.355
+					103.987,
+					1.356
 				]
 			}
 		},
@@ -93708,8 +101676,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.386,
-					37.618
+					-122.387,
+					37.617
 				]
 			}
 		},
@@ -93772,8 +101740,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.402,
-					37.797
+					-122.4,
+					37.79
 				]
 			}
 		},
@@ -94588,7 +102556,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.426,
+					-122.427,
 					37.759
 				]
 			}
@@ -94732,7 +102700,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.402,
+					-122.403,
 					37.79
 				]
 			}
@@ -94988,8 +102956,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.402,
-					37.797
+					-122.4,
+					37.79
 				]
 			}
 		},
@@ -95612,7 +103580,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.426,
+					-122.427,
 					37.759
 				]
 			}
@@ -95964,8 +103932,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.386,
-					37.618
+					-122.387,
+					37.617
 				]
 			}
 		},
@@ -95981,7 +103949,7 @@
 				"type": "Point",
 				"coordinates": [
 					-122.594,
-					45.59
+					45.589
 				]
 			}
 		},
@@ -96029,7 +103997,7 @@
 				"type": "Point",
 				"coordinates": [
 					-122.684,
-					45.522
+					45.521
 				]
 			}
 		},
@@ -96189,7 +104157,7 @@
 				"type": "Point",
 				"coordinates": [
 					-122.594,
-					45.59
+					45.589
 				]
 			}
 		},
@@ -96204,8 +104172,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.386,
-					37.618
+					-122.387,
+					37.617
 				]
 			}
 		},
@@ -96332,7 +104300,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.426,
+					-122.427,
 					37.759
 				]
 			}
@@ -97004,7 +104972,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.426,
+					-122.427,
 					37.759
 				]
 			}
@@ -98220,7 +106188,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.435,
+					-122.434,
 					37.776
 				]
 			}
@@ -98300,7 +106268,7 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.426,
+					-122.427,
 					37.759
 				]
 			}
@@ -98540,8 +106508,8 @@
 			"geometry": {
 				"type": "Point",
 				"coordinates": [
-					-122.386,
-					37.618
+					-122.387,
+					37.617
 				]
 			}
 		},
@@ -98909,7 +106877,7 @@
 				"type": "Point",
 				"coordinates": [
 					103.82,
-					1.306
+					1.305
 				]
 			}
 		},
@@ -98980,7 +106948,7 @@
 		{
 			"type": "Feature",
 			"properties": {
-				"id": "515eb5d7e4b0795d40ba2192",
+				"id": "4c903ed8de3d236a707a6a18",
 				"date": 20131108,
 				"country": "Singapore",
 				"cc": "SG"
