@@ -206,13 +206,14 @@ Promise.all([
     return layer.type !== 'symbol';
   });
   const labelLayerId = labelLayerIdx !== -1 ? layers[labelLayerIdx].id : undefined;
+  // console.log(layers);
 
   layers.forEach(function(layer){
     if (layer['source-layer'] === 'place' && layer.maxzoom){
       map.setLayerZoomRange(layer.id, Math.min(layer.maxzoom-4, 24), 24);
-    } else if (layer['source-layer'] === 'boundary'){
+    } else if (layer['source-layer'] === 'boundary' && layer.type === 'line'){
       map.setPaintProperty(layer.id, 'line-opacity', .2);
-    } else if (layer['source-layer'] === 'transportation'){
+    } else if (layer['source-layer'] === 'transportation' && layer.type === 'line'){
       map.setPaintProperty(layer.id, 'line-opacity', .6);
     }
   });
