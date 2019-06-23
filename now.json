@@ -1,4 +1,8 @@
 {
   "version": 2,
-  "alias": "cheeaun.earth"
+  "alias": "cheeaun.earth",
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build" }
+  ],
+  "regions": ["sin"]
 }

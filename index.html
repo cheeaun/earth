@@ -2,8 +2,9 @@
 <title>cheeaun.earth</title>
 <meta charset="utf-8">
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css">
 <link rel="stylesheet" href="assets/app.css">
+<link rel="preload" as="fetch" href="data/checkins.min.geojson" crossorigin>
+<meta name="description" content="A map of places I've checked in on Earth.">
 <header>
   <h1>cheeaun.earth</h1>
   <a href="https://foursquare.com/cheeaun" target="_blank" title="cheeaun on Foursquare">
@@ -27,5 +28,5 @@
 </div>
 <div id="map"></div>
 <div id="countries"></div>
-<script src="https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js"></script>
 <script src="assets/app.js"></script>
