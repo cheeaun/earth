@@ -8,11 +8,10 @@ const LIMIT = 250;
 const checkins = [];
 
 const start = (offset = 0) => {
-  const URL =
   console.log('Requesting checkins at offset: ' + offset);
   got('https://api.foursquare.com/v2/users/self/checkins', {
-    json: true,
-    query: {
+    responseType: 'json',
+    searchParams: {
       oauth_token: process.env.ACCESS_TOKEN,
       limit: LIMIT,
       offset,
@@ -20,6 +19,7 @@ const start = (offset = 0) => {
       m: 'swarm'
     }
   }).then(({body}) => {
+    // console.log()
     const { items } = body.response.checkins;
 
     if (!items || !items.length){
