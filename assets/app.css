@@ -1,11 +1,17 @@
-@import 'https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.css';
+@import 'https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css';
 
-html, body {
+html,
+body {
   background-color: #000;
   overflow: hidden;
 }
-body, button, input, textarea, select {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+body,
+button,
+input,
+textarea,
+select {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 }
 svg {
   fill: currentColor;
@@ -21,7 +27,7 @@ svg {
   background-color: #aaa;
 }
 .mapboxgl-ctrl > button.active {
-  color: #14B7F4;
+  color: #14b7f4;
 }
 header {
   cursor: default;
@@ -41,7 +47,7 @@ header h1 {
   font-weight: normal;
 }
 header a {
-  padding: 0 0 0 .5em;
+  padding: 0 0 0 0.5em;
 }
 header svg {
   vertical-align: middle;
@@ -51,8 +57,8 @@ header a,
 #info a {
   color: #fff;
   text-decoration: none;
-  opacity: .6;
-  transition: opacity .3s;
+  opacity: 0.6;
+  transition: opacity 0.3s;
 }
 header a:hover,
 #info a:hover {
@@ -68,10 +74,10 @@ header a:hover,
   font-size: 15px;
   text-shadow: 0 2px 2px #000;
   pointer-events: none;
-  color: rgba(255,255,255,.6);
+  color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
   transition-property: opacity, transform;
-  transition-duration: .4s;
+  transition-duration: 0.4s;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   margin-right: 100px;
   opacity: 1;
@@ -92,7 +98,7 @@ header:hover + #info {
   display: inline-block;
   vertical-align: middle;
   transition: opacity 2s ease-out;
-  opacity: .3;
+  opacity: 0.3;
   font-variant-numeric: tabular-nums;
 }
 .render #info span {
@@ -127,7 +133,7 @@ header:hover + #info {
   overflow-scrolling: touch;
   white-space: nowrap;
   padding: 10px;
-  transition: transform .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transform: translateY(100%);
 }
 .render #countries {
@@ -142,25 +148,24 @@ header:hover + #info {
   display: inline-block;
   padding: 10px;
   color: #000;
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(10px);
   border-radius: 3px;
   margin-right: 10px;
   text-align: center;
   cursor: pointer;
   min-width: 100px;
-  text-shadow: 0 1px rgba(255,255,255,.3);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.3);
   transition-property: transform, background-color;
-  transition-duration: .4s;
+  transition-duration: 0.4s;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   font-size: 80%;
 }
-#countries button
-#countries button img {
-  opacity: .75;
+#countries button #countries button img {
+  opacity: 0.75;
 }
 #countries button:hover {
-  background-color: rgba(255,255,255,.85);
+  background-color: rgba(255, 255, 255, 0.85);
   transform: translateY(-5px) scale(1.03);
 }
 .interactive #countries * {

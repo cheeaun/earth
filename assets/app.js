@@ -1,17 +1,12 @@
-import fetch from 'unfetch';
-
 const color = '#14B7F4';
 
-if (!mapboxgl.supported()) {
-  alert('Hi sorry, looks like your browser is not supported to render the map 😢.\n\nYou could try to load this site on another (latest) browser perhaps? 🙏');
-}
-
-mapboxgl.accessToken = 'pk.eyJ1IjoiY2hlZWF1biIsImEiOiJjam9yZDY3OGkwZGVkM3dsaGQ3c3B5YWdpIn0.sg3ArlzdkBagspUgNEOyMA';
+mapboxgl.accessToken =
+  'pk.eyJ1IjoiY2hlZWF1biIsImEiOiJjam9yZDY3OGkwZGVkM3dsaGQ3c3B5YWdpIn0.sg3ArlzdkBagspUgNEOyMA';
 
 const map = new mapboxgl.Map({
   container: 'map',
-  style: 'https://maps.tilehosting.com/styles/darkmatter/style.json?key=xjrAbdVfXA48AYcOS16e',
-  maxZoom: 15.5,
+  style: 'mapbox://styles/cheeaun/ckbm8ln3w15d01ilp38k7xll8',
+  maxZoom: 16,
   logoPosition: 'top-right',
   attributionControl: false,
   boxZoom: false,
@@ -28,24 +23,25 @@ const $infoCheckins = document.getElementById('info-checkins');
 const $countries = document.getElementById('countries');
 
 const bodyClass = document.body.classList;
-function startInteractive(){
+function startInteractive() {
   bodyClass.add('interactive');
 }
 map.on('dragstart', startInteractive);
 map.on('zoomstart', startInteractive);
 
-function endInteractive(){
+function endInteractive() {
   bodyClass.remove('interactive');
 }
 $countries.addEventListener('touchstart', endInteractive, false);
 $countries.addEventListener('mouseenter', endInteractive);
 
-function toggleInteractive(){
+function toggleInteractive() {
   bodyClass.toggle('interactive');
 }
 map.on('click', toggleInteractive);
 
-const numberWithCommas = x => x > 999 ? x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') : x;
+const numberWithCommas = (x) =>
+  x > 999 ? x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',') : x;
 
 map.addControl(new mapboxgl.AttributionControl({ compact: true }), 'top-right');
 
@@ -60,16 +56,20 @@ class LayersControl {
     </svg>`;
     linesButton.type = 'button';
     linesButton.title = 'Show/hide journey lines';
-    linesButton.addEventListener('click', () => {
-      const visibility = map.getLayoutProperty('lines', 'visibility');
-      if (visibility === 'visible') {
-        map.setLayoutProperty('lines', 'visibility', 'none');
-        linesButton.classList.remove('active');
-      } else {
-        map.setLayoutProperty('lines', 'visibility', 'visible');
-        linesButton.classList.add('active');
-      }
-    }, false);
+    linesButton.addEventListener(
+      'click',
+      () => {
+        const visibility = map.getLayoutProperty('lines', 'visibility');
+        if (visibility === 'visible') {
+          map.setLayoutProperty('lines', 'visibility', 'none');
+          linesButton.classList.remove('active');
+        } else {
+          map.setLayoutProperty('lines', 'visibility', 'visible');
+          linesButton.classList.add('active');
+        }
+      },
+      false,
+    );
 
     container.appendChild(linesButton);
     return container;
@@ -77,7 +77,10 @@ class LayersControl {
 }
 map.addControl(new LayersControl(), 'top-right');
 
-map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), 'top-right');
+map.addControl(
+  new mapboxgl.NavigationControl({ showCompass: false }),
+  'top-right',
+);
 
 // let slider;
 // class PitchControl {
@@ -121,7 +124,7 @@ function renderNumber(el, number) {
     requestAnimationFrame(render);
   }
   requestAnimationFrame(render);
-};
+}
 
 Promise.all([
   new Promise((resolve, reject) => {
@@ -157,13 +160,16 @@ Promise.all([
     }
     _countries[country].checkins_count++;
 
-    const nextFeature = data.features[i+1];
-    if (nextFeature && f.properties.date === nextFeature.properties.date){
-      let [ nextLng, nextLat ] = nextFeature.geometry.coordinates;
+    const nextFeature = data.features[i + 1];
+    if (nextFeature && f.properties.date === nextFeature.properties.date) {
+      let [nextLng, nextLat] = nextFeature.geometry.coordinates;
       // Magic below from https://github.com/mapbox/mapbox-gl-js/issues/3250#issuecomment-294887678
       // This make sure the lines can cross the 180th meridian
       nextLng += nextLng - lng > 180 ? -360 : lng - nextLng > 180 ? 360 : 0;
-      lines.push([[lng, lat], [nextLng, nextLat]]);
+      lines.push([
+        [lng, lat],
+        [nextLng, nextLat],
+      ]);
     }
 
     return isUnique;
@@ -185,42 +191,40 @@ Promise.all([
   const countriesCount = countries.length;
 
   countries.sort((a, b) => b.places_count - a.places_count);
-  countries.forEach((country, i) => {
-    const { cc, name, bounds, checkins_count, places_count } = country;
-    const $button = document.createElement('button');
-    $button.type = 'button';
-    $button.addEventListener('click', (e) => {
-      map.fitBounds(bounds, { padding: 150 });
-    }, false);
-    $button.innerHTML = `
-      <img src="data/countries/${cc}.svg" intrinsicsize="50x50" width="50" height="50" alt="">
-      <br>
-      <b>${name}</b>
-      <br>
-      ${numberWithCommas(checkins_count)} check-in${checkins_count > 1 ? 's' : ''}
-      <br>
-      ${numberWithCommas(places_count)} place${places_count > 1 ? 's' : ''}
-    `;
-    $countries.appendChild($button);
+  map.once('load', () => {
+    countries.forEach((country, i) => {
+      const { cc, name, bounds, checkins_count, places_count } = country;
+      const $button = document.createElement('button');
+      $button.type = 'button';
+      $button.addEventListener(
+        'click',
+        (e) => {
+          map.fitBounds(bounds, { padding: 150 });
+        },
+        false,
+      );
+      $button.innerHTML = `
+        <img src="data/countries/${cc}.svg" intrinsicsize="50x50" width="50" height="50" alt="">
+        <br>
+        <b>${name}</b>
+        <br>
+        ${numberWithCommas(checkins_count)} check-in${
+        checkins_count > 1 ? 's' : ''
+      }
+        <br>
+        ${numberWithCommas(places_count)} place${places_count > 1 ? 's' : ''}
+      `;
+      $countries.appendChild($button);
+    });
   });
 
   const layers = map.getStyle().layers.reverse();
   const labelLayerIdx = layers.findIndex(function (layer) {
     return layer.type !== 'symbol';
   });
-  const labelLayerId = labelLayerIdx !== -1 ? layers[labelLayerIdx].id : undefined;
+  const labelLayerId =
+    labelLayerIdx !== -1 ? layers[labelLayerIdx].id : undefined;
   console.log(layers);
-
-  layers.forEach(function(layer){
-    if (layer['source-layer'] === 'place' && layer.maxzoom){
-      map.setLayerZoomRange(layer.id, Math.min(layer.maxzoom-4, 24), 24);
-    } else if (layer['source-layer'] === 'boundary' && layer.type === 'line'){
-      map.setPaintProperty(layer.id, 'line-opacity', .2);
-    } else if (layer['source-layer'] === 'transportation' && layer.type === 'line'){
-      map.setPaintProperty(layer.id, 'line-opacity', .6);
-    }
-  });
-  map.setPaintProperty('background', 'background-color', '#080808');
 
   map.addSource('checkins', {
     type: 'geojson',
@@ -229,6 +233,7 @@ Promise.all([
     clusterMaxZoom: 10,
     clusterRadius: 10,
     tolerance: 10,
+    buffer: 0,
   });
 
   map.addLayer({
@@ -238,22 +243,32 @@ Promise.all([
     filter: ['has', 'point_count'],
     paint: {
       'circle-radius': [
-        'interpolate', ['linear'], ['get', 'point_count'],
-        3, 7,
-        10, 10,
-        100, 13,
-        200, 16
+        'interpolate',
+        ['linear'],
+        ['get', 'point_count'],
+        3,
+        7,
+        10,
+        10,
+        100,
+        13,
+        200,
+        16,
       ],
       'circle-color': color,
-      'circle-opacity': .9,
+      'circle-opacity': 0.9,
       'circle-stroke-width': [
-        'interpolate', ['linear'], ['get', 'point_count'],
-        3, 3,
-        50, 6
+        'interpolate',
+        ['linear'],
+        ['get', 'point_count'],
+        3,
+        3,
+        50,
+        6,
       ],
       'circle-stroke-color': color,
-      'circle-stroke-opacity': .3,
-    }
+      'circle-stroke-opacity': 0.3,
+    },
   });
 
   map.addLayer({
@@ -268,21 +283,24 @@ Promise.all([
     },
   });
 
-  map.addLayer({
-    id: 'checkins',
-    type: 'circle',
-    source: 'checkins',
-    minzoom: 8,
-    filter: ['!has', 'point_count'],
-    paint: {
-      'circle-radius': 3,
-      'circle-color': color,
-      'circle-opacity': .9,
-      'circle-stroke-width': 3,
-      'circle-stroke-color': color,
-      'circle-stroke-opacity': .1,
+  map.addLayer(
+    {
+      id: 'checkins',
+      type: 'circle',
+      source: 'checkins',
+      minzoom: 8,
+      filter: ['!has', 'point_count'],
+      paint: {
+        'circle-radius': 3,
+        'circle-color': color,
+        'circle-opacity': 0.9,
+        'circle-stroke-width': 3,
+        'circle-stroke-color': color,
+        'circle-stroke-opacity': 0.1,
+      },
     },
-  }, labelLayerId);
+    labelLayerId,
+  );
 
   map.once('load', () => {
     requestAnimationFrame(() => {
@@ -309,54 +327,30 @@ Promise.all([
     map.getCanvas().style.cursor = '';
   });
 
-  map.addLayer({
-    id: 'lines',
-    type: 'line',
-    source: {
-      type: 'geojson',
-      data: {
-        type: 'Feature',
-        geometry: {
-          type: 'MultiLineString',
-          coordinates: lines,
+  map.addLayer(
+    {
+      id: 'lines',
+      type: 'line',
+      source: {
+        type: 'geojson',
+        data: {
+          type: 'Feature',
+          geometry: {
+            type: 'MultiLineString',
+            coordinates: lines,
+          },
         },
       },
+      layout: {
+        visibility: 'none',
+      },
+      paint: {
+        'line-color': '#fff',
+        'line-opacity': 0.3,
+      },
     },
-    layout: {
-      visibility: 'none',
-    },
-    paint: {
-      'line-color': '#fff',
-      'line-opacity': .3,
-    },
-  }, labelLayerId);
-
-  map.setPaintProperty('building', 'fill-color', 'rgba(200,200,200,.1)');
-  map.setPaintProperty('building', 'fill-antialias', false);
-  map.setLayerZoomRange('building', 14, 16);
-  map.setPaintProperty('building', 'fill-opacity', [
-    'interpolate', ['linear'], ['zoom'],
-    14.1, 0,
-    15.5, 1
-  ]);
-
-  // map.addLayer({
-  //   id: 'building-3d',
-  //   source: 'openmaptiles',
-  //   'source-layer': 'building',
-  //   type: 'fill-extrusion',
-  //   minzoom: 14,
-  //   paint: {
-  //     'fill-extrusion-color': '#999',
-  //     'fill-extrusion-base': ['get', 'render_min_height'],
-  //     'fill-extrusion-height': ['get', 'render_height'],
-  //     'fill-extrusion-opacity': [
-  //       'interpolate', ['linear'], ['zoom'],
-  //       14.1, 0,
-  //       15.5, .6
-  //     ],
-  //   },
-  // }, labelLayerId);
+    labelLayerId,
+  );
 
   // TODO: filter by date
   // const filterByDate = (startDate, endDate) => {
@@ -370,7 +364,9 @@ Promise.all([
   // filterByDate(20160101, 20161212);
 
   const err = (e) => {
-    const reload = confirm('Oops, the map is acting weird now. Reload this page? 😅');
+    const reload = confirm(
+      'Oops, the map is acting weird now. Reload this page? 😅',
+    );
     if (reload) location.reload();
     console.error(e);
   };
