@@ -1,3 +1,5 @@
+var mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
+
 const color = '#14B7F4';
 
 mapboxgl.accessToken =

@@ -39,7 +39,11 @@
     "paper": "~0.12.4",
     "parcel-bundler": "~1.12.4",
     "parcel-plugin-copy": "~1.0.2",
+    "postcss": "~7.0.32",
     "postcss-clean": "~1.1.0",
-    "postcss-import-url": "~4.0.0"
+    "postcss-import-url": "^5.1.0"
+  },
+  "dependencies": {
+    "mapbox-gl": "~1.11.0"
   }
 }
