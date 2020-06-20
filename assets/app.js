@@ -11,10 +11,7 @@ const map = new mapboxgl.Map({
   attributionControl: false,
   boxZoom: false,
   zoom: 0.1,
-  pitchWithRotate: false,
-  dragRotate: false,
 });
-map.touchZoomRotate.disableRotation();
 
 // const $info = document.getElementById('info');
 const $infoCountries = document.getElementById('info-countries');
@@ -77,10 +74,7 @@ class LayersControl {
 }
 map.addControl(new LayersControl(), 'top-right');
 
-map.addControl(
-  new mapboxgl.NavigationControl({ showCompass: false }),
-  'top-right',
-);
+map.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
 // let slider;
 // class PitchControl {
@@ -225,6 +219,8 @@ Promise.all([
   const labelLayerId =
     labelLayerIdx !== -1 ? layers[labelLayerIdx].id : undefined;
   console.log(layers);
+
+  map.setLayerZoomRange('transit-label', 14, 16);
 
   map.addSource('checkins', {
     type: 'geojson',

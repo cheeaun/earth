@@ -148,24 +148,25 @@ header:hover + #info {
   display: inline-block;
   padding: 10px;
   color: #000;
-  background-color: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px) saturate(3);
   border-radius: 3px;
   margin-right: 10px;
   text-align: center;
   cursor: pointer;
   min-width: 100px;
-  text-shadow: 0 1px rgba(255, 255, 255, 0.3);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.25);
   transition-property: transform, background-color;
   transition-duration: 0.4s;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   font-size: 80%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 #countries button #countries button img {
   opacity: 0.75;
 }
 #countries button:hover {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.75);
   transform: translateY(-5px) scale(1.03);
 }
 .interactive #countries * {
@@ -173,5 +174,5 @@ header:hover + #info {
 }
 .interactive #countries button {
   transform: rotate(-5deg);
-  filter: opacity(50%);
+  opacity: 0.5;
 }
