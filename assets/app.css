@@ -149,6 +149,7 @@ header:hover + #info {
   padding: 10px;
   color: #000;
   background-color: rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(20px) saturate(3);
   backdrop-filter: blur(20px) saturate(3);
   border-radius: 3px;
   margin-right: 10px;
@@ -160,7 +161,6 @@ header:hover + #info {
   transition-duration: 0.4s;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   font-size: 80%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 #countries button #countries button img {
   opacity: 0.75;
