@@ -1,9 +1,4 @@
-var mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
-
 const color = '#14B7F4';
-
-mapboxgl.accessToken =
-  'pk.eyJ1IjoiY2hlZWF1biIsImEiOiJjam9yZDY3OGkwZGVkM3dsaGQ3c3B5YWdpIn0.sg3ArlzdkBagspUgNEOyMA';
 
 const map = new mapboxgl.Map({
   container: 'map',
