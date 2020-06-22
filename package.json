@@ -6,7 +6,6 @@
   "scripts": {
     "start": "parcel index.html --port 2345 --no-autoinstall --no-hmr",
     "build": "parcel build index.html",
-    "build-prod": "npm run build && cp {CNAME,favicon.ico} dist",
     "mapsicon": "if [ ! -d \"node_modules/mapsicon\" ]; then napa Sn3b/mapsicon; fi",
     "checkins": "npm run foursquare && npm run geojson",
     "foursquare": "node scripts/get-checkins.js",
