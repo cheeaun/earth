@@ -6,6 +6,7 @@
   "scripts": {
     "start": "parcel index.html --port 2345 --no-autoinstall --no-hmr",
     "build": "parcel build index.html",
+    "build-prod": "npm run build && cpy {CNAME,favicon.ico} dist",
     "mapsicon": "if [ ! -d \"node_modules/mapsicon\" ]; then napa Sn3b/mapsicon; fi",
     "checkins": "npm run foursquare && npm run geojson",
     "foursquare": "node scripts/get-checkins.js",
@@ -13,8 +14,7 @@
     "countries": "npm run mapsicon && npm run countries-svg && npm run optimize-svg && npm run simplify-svg && npm run optimize-svg",
     "countries-svg": "node scripts/generate-countries-svg.js",
     "simplify-svg": "node scripts/simplify-svg.js",
-    "optimize-svg": "svgo -f data/countries/ --multipass -p 0 --config .svgo.yml",
-    "now-build": "npm run build"
+    "optimize-svg": "svgo -f data/countries/ --multipass -p 0 --config .svgo.yml"
   },
   "staticPath": {
     "source": [
