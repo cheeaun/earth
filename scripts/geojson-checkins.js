@@ -36,6 +36,6 @@ const FILE = path.resolve(__dirname, '../data/checkins.geojson');
 console.log('DONE: writing file ' + FILE);
 fs.writeFileSync(FILE, JSON.stringify(geojson, null, '\t'));
 
-const MIN_FILE = path.resolve(__dirname, '../data/checkins.min.geojson');
+const MIN_FILE = path.resolve(__dirname, '../data/checkins.min.json');
 console.log('DONE: writing file ' + MIN_FILE);
 fs.writeFileSync(MIN_FILE, JSON.stringify(geojson));

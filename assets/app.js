@@ -122,71 +122,67 @@ function renderNumber(el, number) {
   requestAnimationFrame(render);
 }
 
-Promise.all([
-  new Promise((resolve, reject) => {
-    map.once('styledata', resolve);
-    map.on('error', reject);
-  }),
-  fetch(require('../data/checkins.min.geojson')).then((data) => data.json()),
-]).then(([_, data]) => {
-  const _countries = {};
-  const _places = {};
+const data = require('../data/checkins.min.json');
+const _countries = {};
+const _places = {};
 
-  const checkinsCount = data.features.length;
+const checkinsCount = data.features.length;
 
-  const lines = [];
+const lines = [];
 
-  data.features = data.features.filter((f, i) => {
-    const { id, country } = f.properties;
-    const isUnique = !_places[id];
-    const [lng, lat] = f.geometry.coordinates;
-    if (isUnique) {
-      if (!_countries[country]) {
-        const cc = f.properties.cc.toLowerCase();
-        _countries[country] = {
-          cc: cc,
-          bounds: new mapboxgl.LngLatBounds(),
-          places_count: 0,
-          checkins_count: 0,
-        };
-      }
-      _countries[country].bounds.extend([lng, lat]);
-      _countries[country].places_count++;
-      _places[id] = true;
+data.features = data.features.filter((f, i) => {
+  const { id, country } = f.properties;
+  const isUnique = !_places[id];
+  const [lng, lat] = f.geometry.coordinates;
+  if (isUnique) {
+    if (!_countries[country]) {
+      const cc = f.properties.cc.toLowerCase();
+      _countries[country] = {
+        cc: cc,
+        bounds: new mapboxgl.LngLatBounds(),
+        places_count: 0,
+        checkins_count: 0,
+      };
     }
-    _countries[country].checkins_count++;
+    _countries[country].bounds.extend([lng, lat]);
+    _countries[country].places_count++;
+    _places[id] = true;
+  }
+  _countries[country].checkins_count++;
 
-    const nextFeature = data.features[i + 1];
-    if (nextFeature && f.properties.date === nextFeature.properties.date) {
-      let [nextLng, nextLat] = nextFeature.geometry.coordinates;
-      // Magic below from https://github.com/mapbox/mapbox-gl-js/issues/3250#issuecomment-294887678
-      // This make sure the lines can cross the 180th meridian
-      nextLng += nextLng - lng > 180 ? -360 : lng - nextLng > 180 ? 360 : 0;
-      lines.push([
-        [lng, lat],
-        [nextLng, nextLat],
-      ]);
-    }
+  const nextFeature = data.features[i + 1];
+  if (nextFeature && f.properties.date === nextFeature.properties.date) {
+    let [nextLng, nextLat] = nextFeature.geometry.coordinates;
+    // Magic below from https://github.com/mapbox/mapbox-gl-js/issues/3250#issuecomment-294887678
+    // This make sure the lines can cross the 180th meridian
+    nextLng += nextLng - lng > 180 ? -360 : lng - nextLng > 180 ? 360 : 0;
+    lines.push([
+      [lng, lat],
+      [nextLng, nextLat],
+    ]);
+  }
 
-    return isUnique;
-  });
+  return isUnique;
+});
 
-  const placesCount = Object.keys(_places).length;
+const placesCount = Object.keys(_places).length;
 
-  const countries = Object.keys(_countries).map((country) => {
-    const c = _countries[country];
-    return {
-      name: country,
-      cc: c.cc,
-      bounds: c.bounds,
-      places_count: c.places_count,
-      checkins_count: c.checkins_count,
-    };
-  });
+const countries = Object.keys(_countries).map((country) => {
+  const c = _countries[country];
+  return {
+    name: country,
+    cc: c.cc,
+    bounds: c.bounds,
+    places_count: c.places_count,
+    checkins_count: c.checkins_count,
+  };
+});
 
-  const countriesCount = countries.length;
+const countriesCount = countries.length;
 
-  countries.sort((a, b) => b.places_count - a.places_count);
+countries.sort((a, b) => b.places_count - a.places_count);
+
+map.once('styledata', () => {
   map.once('load', () => {
     countries.forEach((country, i) => {
       const { cc, name, bounds, checkins_count, places_count } = country;
