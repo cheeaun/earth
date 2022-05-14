@@ -1,14 +1,24 @@
+import mapboxgl from 'mapbox-gl';
+
+mapboxgl.accessToken =
+  'pk.eyJ1IjoiY2hlZWF1biIsImEiOiJjam9yZDY3OGkwZGVkM3dsaGQ3c3B5YWdpIn0.sg3ArlzdkBagspUgNEOyMA';
+
 const color = '#14B7F4';
 
-const map = new mapboxgl.Map({
+const map = (window._map = new mapboxgl.Map({
   container: 'map',
+  // style: 'mapbox://styles/mapbox/satellite-v9',
   style: 'mapbox://styles/cheeaun/ckbm8ln3w15d01ilp38k7xll8',
+  // style: 'mapbox://styles/mapbox/streets-v11',
   maxZoom: 16,
   logoPosition: 'top-right',
   attributionControl: false,
   boxZoom: false,
-  zoom: 0.1,
-});
+  zoom: 0.5,
+  minZoom: 0.5,
+  projection: 'globe',
+  center: [103.8198, 1.3521], // Singapore
+}));
 
 // const $info = document.getElementById('info');
 const $infoCountries = document.getElementById('info-countries');
@@ -177,43 +187,48 @@ const countriesCount = countries.length;
 
 countries.sort((a, b) => b.places_count - a.places_count);
 
+map.once('load', () => {
+  countries.forEach((country, i) => {
+    const { cc, name, bounds, checkins_count, places_count } = country;
+    const $button = document.createElement('button');
+    $button.type = 'button';
+    $button.addEventListener(
+      'click',
+      (e) => {
+        // map.fitBounds(bounds, { padding: 150 });
+        const center = bounds.getCenter();
+        map.flyTo({ center, zoom: 3 });
+      },
+      false,
+    );
+    $button.innerHTML = `
+      <img src="data/countries/${cc}.svg" intrinsicsize="50x50" width="50" height="50" alt="">
+      <br>
+      <b>${name}</b>
+      <br>
+      ${numberWithCommas(checkins_count)} check-in${
+      checkins_count > 1 ? 's' : ''
+    }
+      <br>
+      ${numberWithCommas(places_count)} place${places_count > 1 ? 's' : ''}
+    `;
+    $countries.appendChild($button);
+  });
+
+  requestAnimationFrame(() => {
+    renderNumber($infoCheckins, checkinsCount);
+    renderNumber($infoPlaces, placesCount);
+    renderNumber($infoCountries, countriesCount);
+    bodyClass.add('render');
+  });
+});
+
 map.once('styledata', () => {
-  map.once('load', () => {
-    countries.forEach((country, i) => {
-      const { cc, name, bounds, checkins_count, places_count } = country;
-      const $button = document.createElement('button');
-      $button.type = 'button';
-      $button.addEventListener(
-        'click',
-        (e) => {
-          map.fitBounds(bounds, { padding: 150 });
-        },
-        false,
-      );
-      $button.innerHTML = `
-        <img src="data/countries/${cc}.svg" intrinsicsize="50x50" width="50" height="50" alt="">
-        <br>
-        <b>${name}</b>
-        <br>
-        ${numberWithCommas(checkins_count)} check-in${
-        checkins_count > 1 ? 's' : ''
-      }
-        <br>
-        ${numberWithCommas(places_count)} place${places_count > 1 ? 's' : ''}
-      `;
-      $countries.appendChild($button);
-    });
+  map.setFog({
+    color: 'rgba(255,255,255,.5)',
+    'high-color': color,
+    'horizon-blend': 0.025,
   });
-
-  const layers = map.getStyle().layers.reverse();
-  const labelLayerIdx = layers.findIndex(function (layer) {
-    return layer.type !== 'symbol';
-  });
-  const labelLayerId =
-    labelLayerIdx !== -1 ? layers[labelLayerIdx].id : undefined;
-  console.log(layers);
-
-  map.setLayerZoomRange('transit-label', 14, 16);
 
   map.addSource('checkins', {
     type: 'geojson',
@@ -255,7 +270,7 @@ map.once('styledata', () => {
         50,
         6,
       ],
-      'circle-stroke-color': color,
+      'circle-stroke-color': '#fff',
       'circle-stroke-opacity': 0.3,
     },
   });
@@ -272,36 +287,33 @@ map.once('styledata', () => {
     },
   });
 
-  map.addLayer(
-    {
-      id: 'checkins',
-      type: 'circle',
-      source: 'checkins',
-      minzoom: 8,
-      filter: ['!has', 'point_count'],
-      paint: {
-        'circle-radius': 3,
-        'circle-color': color,
-        'circle-opacity': 0.9,
-        'circle-stroke-width': 3,
-        'circle-stroke-color': color,
-        'circle-stroke-opacity': 0.1,
-      },
+  map.addLayer({
+    id: 'checkins',
+    type: 'circle',
+    source: 'checkins',
+    minzoom: 8,
+    filter: ['!has', 'point_count'],
+    paint: {
+      'circle-radius': ['interpolate', ['linear'], ['zoom'], 12, 3, 16, 6],
+      'circle-color': color,
+      'circle-opacity': 0.9,
+      'circle-stroke-width': [
+        'interpolate',
+        ['linear'],
+        ['zoom'],
+        12,
+        1,
+        16,
+        3,
+      ],
+      'circle-stroke-color': '#fff',
+      'circle-stroke-opacity': 0.1,
     },
-    labelLayerId,
-  );
-
-  map.once('load', () => {
-    requestAnimationFrame(() => {
-      renderNumber($infoCheckins, checkinsCount);
-      renderNumber($infoPlaces, placesCount);
-      renderNumber($infoCountries, countriesCount);
-      bodyClass.add('render');
-    });
   });
 
+  const canvas = map.getCanvas();
   map.on('mouseenter', 'cluster', () => {
-    map.getCanvas().style.cursor = 'pointer';
+    canvas.style.cursor = 'pointer';
   });
 
   map.on('click', 'cluster', (e) => {
@@ -313,33 +325,30 @@ map.once('styledata', () => {
   });
 
   map.on('mouseleave', 'cluster', () => {
-    map.getCanvas().style.cursor = '';
+    canvas.style.cursor = '';
   });
 
-  map.addLayer(
-    {
-      id: 'lines',
-      type: 'line',
-      source: {
-        type: 'geojson',
-        data: {
-          type: 'Feature',
-          geometry: {
-            type: 'MultiLineString',
-            coordinates: lines,
-          },
+  map.addLayer({
+    id: 'lines',
+    type: 'line',
+    source: {
+      type: 'geojson',
+      data: {
+        type: 'Feature',
+        geometry: {
+          type: 'MultiLineString',
+          coordinates: lines,
         },
       },
-      layout: {
-        visibility: 'none',
-      },
-      paint: {
-        'line-color': '#fff',
-        'line-opacity': 0.3,
-      },
     },
-    labelLayerId,
-  );
+    layout: {
+      visibility: 'none',
+    },
+    paint: {
+      'line-color': '#fff',
+      'line-opacity': 0.3,
+    },
+  });
 
   // TODO: filter by date
   // const filterByDate = (startDate, endDate) => {

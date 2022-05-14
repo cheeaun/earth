@@ -1,19 +1,20 @@
 {
   "name": "cheeaun-earth",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "Lim Chee Aun",
   "license": "MIT",
   "scripts": {
     "start": "parcel index.html --port 2345 --no-autoinstall --no-hmr",
     "build": "parcel build index.html",
-    "mapsicon": "if [ ! -d \"node_modules/mapsicon\" ]; then napa Sn3b/mapsicon; fi",
+    "_mapsicon": "if [ ! -d \"node_modules/mapsicon\" ]; then napa djaiss/mapsicon; fi",
+    "mapsicon": "if cd node_modules/mapsicon; then git pull; else git clone https://github.com/djaiss/mapsicon.git node_modules/mapsicon; fi # https://stackoverflow.com/a/40316490",
     "checkins": "npm run foursquare && npm run geojson",
-    "foursquare": "node scripts/get-checkins.js",
+    "foursquare": "node scripts/get-checkins.mjs",
     "geojson": "node scripts/geojson-checkins.js",
     "countries": "npm run mapsicon && npm run countries-svg && npm run optimize-svg && npm run simplify-svg && npm run optimize-svg",
     "countries-svg": "node scripts/generate-countries-svg.js",
     "simplify-svg": "node scripts/simplify-svg.js",
-    "optimize-svg": "svgo -f data/countries/ --multipass -p 0 --config .svgo.yml"
+    "optimize-svg": "svgo -f data/countries/ -p 0"
   },
   "staticPath": {
     "source": [
@@ -25,18 +26,16 @@
       "dist"
     ]
   },
-  "browserslist": [
-    "last 2 Chrome versions"
-  ],
+  "browserslist": ">0.2%, not dead, not ie 11, not chrome < 51, not safari < 10, not android < 51",
   "devDependencies": {
-    "dotenv": "~8.2.0",
-    "got": "~10.1.0",
-    "napa": "~3.0.0",
-    "paper": "~0.12.4",
-    "parcel-bundler": "~1.12.4",
-    "parcel-plugin-copy": "~1.0.2"
+    "dotenv": "~16.0.1",
+    "got": "~12.0.4",
+    "paper": "~0.12.15",
+    "parcel": "~2.5.0",
+    "parcel-plugin-copy": "~1.0.2",
+    "svgo": "~2.8.0"
   },
   "dependencies": {
-    "mapbox-gl": "~1.11.0"
+    "mapbox-gl": "2.9.0-beta.1"
   }
 }

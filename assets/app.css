@@ -1,4 +1,4 @@
-@import 'mapbox-gl/dist/mapbox-gl.css';
+@import 'npm:mapbox-gl/dist/mapbox-gl.css';
 
 html,
 body {

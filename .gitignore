@@ -4,4 +4,4 @@ node_modules
 .DS_Store
 .yarnclean
 .env
-.cache
+.parcel-cache
