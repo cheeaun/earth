@@ -127,67 +127,78 @@ function renderNumber(el, number) {
   requestAnimationFrame(render);
 }
 
-const data = require('../data/checkins.min.json');
-const _countries = {};
-const _places = {};
+const dataUrl = new URL('../data/checkins.min.json', import.meta.url);
 
-const checkinsCount = data.features.length;
+map.once('load', async () => {
+  const data = await fetch(dataUrl).then((res) => res.json());
+  const _countries = {};
+  const _places = {};
 
-const lines = [];
+  const checkinsCount = data.features.length;
 
-data.features = data.features.filter((f, i) => {
-  const { id, country } = f.properties;
-  const isUnique = !_places[id];
-  const [lng, lat] = f.geometry.coordinates;
-  if (isUnique) {
-    if (!_countries[country]) {
-      const cc = f.properties.cc.toLowerCase();
-      _countries[country] = {
-        cc: cc,
-        bounds: new mapboxgl.LngLatBounds(),
-        places_count: 0,
-        checkins_count: 0,
-      };
+  const lines = [];
+
+  data.features = data.features.filter((f, i) => {
+    const { id, country } = f.properties;
+    const isUnique = !_places[id];
+    const [lng, lat] = f.geometry.coordinates;
+    if (isUnique) {
+      if (!_countries[country]) {
+        const cc = f.properties.cc.toLowerCase();
+        _countries[country] = {
+          cc: cc,
+          bounds: new mapboxgl.LngLatBounds(),
+          places_count: 0,
+          checkins_count: 0,
+        };
+      }
+      _countries[country].bounds.extend([lng, lat]);
+      _countries[country].places_count++;
+      _places[id] = true;
     }
-    _countries[country].bounds.extend([lng, lat]);
-    _countries[country].places_count++;
-    _places[id] = true;
-  }
-  _countries[country].checkins_count++;
+    _countries[country].checkins_count++;
 
-  const nextFeature = data.features[i + 1];
-  if (nextFeature && f.properties.date === nextFeature.properties.date) {
-    let [nextLng, nextLat] = nextFeature.geometry.coordinates;
-    // Magic below from https://github.com/mapbox/mapbox-gl-js/issues/3250#issuecomment-294887678
-    // This make sure the lines can cross the 180th meridian
-    nextLng += nextLng - lng > 180 ? -360 : lng - nextLng > 180 ? 360 : 0;
-    lines.push([
-      [lng, lat],
-      [nextLng, nextLat],
-    ]);
-  }
+    const nextFeature = data.features[i + 1];
+    if (nextFeature && f.properties.date === nextFeature.properties.date) {
+      let [nextLng, nextLat] = nextFeature.geometry.coordinates;
+      // Magic below from https://github.com/mapbox/mapbox-gl-js/issues/3250#issuecomment-294887678
+      // This make sure the lines can cross the 180th meridian
+      nextLng += nextLng - lng > 180 ? -360 : lng - nextLng > 180 ? 360 : 0;
+      lines.push([
+        [lng, lat],
+        [nextLng, nextLat],
+      ]);
+    }
 
-  return isUnique;
-});
+    return isUnique;
+  });
 
-const placesCount = Object.keys(_places).length;
+  map.getSource('checkins').setData(data);
+  map.getSource('lines').setData({
+    type: 'Feature',
+    geometry: {
+      type: 'MultiLineString',
+      coordinates: lines,
+    },
+  });
 
-const countries = Object.keys(_countries).map((country) => {
-  const c = _countries[country];
-  return {
-    name: country,
-    cc: c.cc,
-    bounds: c.bounds,
-    places_count: c.places_count,
-    checkins_count: c.checkins_count,
-  };
-});
+  const placesCount = Object.keys(_places).length;
 
-const countriesCount = countries.length;
+  const countries = Object.keys(_countries).map((country) => {
+    const c = _countries[country];
+    return {
+      name: country,
+      cc: c.cc,
+      bounds: c.bounds,
+      places_count: c.places_count,
+      checkins_count: c.checkins_count,
+    };
+  });
 
-countries.sort((a, b) => b.places_count - a.places_count);
+  const countriesCount = countries.length;
 
-map.once('load', () => {
+  countries.sort((a, b) => b.places_count - a.places_count);
+
   countries.forEach((country, i) => {
     const { cc, name, bounds, checkins_count, places_count } = country;
     const $button = document.createElement('button');
@@ -232,7 +243,10 @@ map.once('styledata', () => {
 
   map.addSource('checkins', {
     type: 'geojson',
-    data: data,
+    data: {
+      type: 'FeatureCollection',
+      features: [],
+    },
     cluster: true,
     clusterMaxZoom: 10,
     clusterRadius: 10,
@@ -328,19 +342,19 @@ map.once('styledata', () => {
     canvas.style.cursor = '';
   });
 
+  map.addSource('lines', {
+    type: 'geojson',
+    data: {
+      type: 'FeatureCollection',
+      features: [],
+    },
+    tolerance: 10,
+    buffer: 0,
+  });
   map.addLayer({
     id: 'lines',
     type: 'line',
-    source: {
-      type: 'geojson',
-      data: {
-        type: 'Feature',
-        geometry: {
-          type: 'MultiLineString',
-          coordinates: lines,
-        },
-      },
-    },
+    source: 'lines',
     layout: {
       visibility: 'none',
     },
