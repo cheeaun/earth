@@ -16,23 +16,20 @@
     "simplify-svg": "node scripts/simplify-svg.js",
     "optimize-svg": "svgo -f data/countries/ -p 0"
   },
-  "staticPath": {
-    "source": [
-      "data/countries",
-      "static"
-    ],
-    "target": [
-      "dist/data/countries",
-      "dist"
-    ]
-  },
+  "copyStaticFiles": [
+    "static",
+    {
+      "from": "data/countries/*",
+      "to": "dist/data/countries"
+    }
+  ],
   "browserslist": ">0.2%, not dead, not ie 11, not chrome < 51, not safari < 10, not android < 51",
   "devDependencies": {
     "dotenv": "~16.0.1",
     "got": "~12.0.4",
     "paper": "~0.12.15",
     "parcel": "~2.5.0",
-    "parcel-plugin-copy": "~1.0.2",
+    "parcel-reporter-copy-file-v2": "~1.0.1",
     "svgo": "~2.8.0"
   },
   "dependencies": {

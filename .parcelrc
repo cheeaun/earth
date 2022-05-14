@@ -4,5 +4,9 @@
     "*.json": [
       "@parcel/transformer-raw"
     ]
-  }
+  },
+  "reporters": [
+    "...",
+    "parcel-reporter-copy-file-v2"
+  ]
 }
