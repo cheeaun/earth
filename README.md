@@ -2,7 +2,7 @@
 
 > A map of places I've checked in on Earth.
 
-[![Screenshot](screenshot.png)](https://cheeaun.earth/)
+[![Screenshot](screenshots/screenshot-2.jpg)](https://cheeaun.earth/)
 
 ## Why
 
