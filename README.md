@@ -28,9 +28,7 @@ ACCESS_TOKEN=XXX
 ### Wonderful `npm` scripts
 
 - `npm run checkins` - Fetch all checks-ins from Foursquare. Raw `checkins.json` is not part of repo because of privacy. `checkins[.min].geojson` files have _shortened_ coordinates for privacy.
-- `npm run countries`
-  - Remember to [install SVGO first](https://github.com/svg/svgo) (globally) before running this.
-  - Download a copy of country maps from [Sn3b/mapsicon](https://github.com/Sn3b/mapsicon) (Uses [napa](https://github.com/shama/napa) because it doesn't have a `package.json`). Then generate all optimized SVG countries.
+- `npm run countries` - Download a copy of country maps from [djaiss/mapsicon](https://github.com/djaiss/mapsicon). Then generate all optimized SVG countries.
 - `npm start` - Watch and transpile `assets/app.raw.js`, and start the server.
 
 ## Future
@@ -51,7 +49,7 @@ ACCESS_TOKEN=XXX
 
 ## License
 
-Data powered by [Foursquare](https://foursquare.com/). Map powered by [Mapbox](https://www.mapbox.com/). Vector countries are from [djaiss/mapsicon](https://github.com/djaiss/mapsicon) and [Sn3b/mapsicon](https://github.com/Sn3b/mapsicon).
+Data powered by [Foursquare](https://foursquare.com/). Map powered by [Mapbox](https://www.mapbox.com/). Vector countries are from [djaiss/mapsicon](https://github.com/djaiss/mapsicon).
 
 _Everything else..._
 
