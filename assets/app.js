@@ -206,9 +206,7 @@ map.once('load', async () => {
     $button.addEventListener(
       'click',
       (e) => {
-        // map.fitBounds(bounds, { padding: 150 });
-        const center = bounds.getCenter();
-        map.flyTo({ center, zoom: 3 });
+        map.fitBounds(bounds, { padding: 150 });
       },
       false,
     );
