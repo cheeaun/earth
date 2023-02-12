@@ -26,7 +26,7 @@
   "browserslist": ">0.2%, not dead, not ie 11, not chrome < 51, not safari < 10, not android < 51",
   "devDependencies": {
     "dotenv": "~16.0.1",
-    "got": "~12.1.0",
+    "got": "~12.5.3",
     "paper": "~0.12.15",
     "parcel": "~2.6.1",
     "parcel-reporter-copy-file-v2": "~1.0.1",
